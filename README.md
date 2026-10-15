@@ -8,8 +8,6 @@ An intelligent legal research prototype that retrieves relevant Indian judicial 
 
 **Streamlit App:** [Open the application](https://indian-legal-kg-rag.streamlit.app/)
 
-> Replace the URL above with your actual Streamlit Community Cloud application URL.
-
 **Source Code:** [GitHub Repository](https://github.com/Meenarekha/indian-legal-kg-rag)
 
 **DVC Data Storage:** [DagsHub Repository](https://dagshub.com/Meena/indian-legal-kg-rag)
