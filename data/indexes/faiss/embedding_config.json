@@ -1,9 +1,0 @@
-{
-  "model_name": "sentence-transformers/all-MiniLM-L6-v2",
-  "embedding_dimension": 384,
-  "index_type": "IndexFlatIP",
-  "normalized_embeddings": true,
-  "similarity": "cosine_similarity",
-  "batch_size": 32,
-  "number_of_vectors": 35076
-}
