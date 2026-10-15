@@ -8,7 +8,7 @@ An intelligent legal research prototype that retrieves relevant Indian judicial 
 
 Watch the screen-recorded demonstration of the Indian Legal Case Retrieval & Question-Answering System.
 
-[▶️ **Watch the Project Demo**](C:\Legal Query RAG\Project demo.mp4)
+[▶️ **Watch the Project Demo**]("C:\Legal Query RAG\Project demo.mp4")
 
 The demonstration covers:
 - Legal query input through the Streamlit interface.
