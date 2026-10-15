@@ -27,16 +27,6 @@ Thumbs.db
 # Raw legal corpus
 data/raw/
 
-# Generated processed data and indexes
-data/processed/
-data/indexes/
-data/embeddings/
-*.faiss
-*.pkl
-*.pickle
-*.npy
-*.npz
-
 # Generated outputs
 outputs/
 results/
