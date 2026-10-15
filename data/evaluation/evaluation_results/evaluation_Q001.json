@@ -1,0 +1,24 @@
+{
+  "query_id": "Q001",
+  "question": "What are the conditions for granting anticipatory bail under Section 438 CrPC?",
+  "base_source_file": "data\\evaluation\\generation_outputs\\base_answer_q001_20260914_001737.json",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_q001_20260914_010100.json",
+  "base_provider": "gemini",
+  "rag_provider": "gemini",
+  "evaluation_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T13:21:52.980712",
+  "base": {
+    "relevance": 5,
+    "reference_consistency": 5,
+    "completeness": 5,
+    "overall": 5.0
+  },
+  "rag": {
+    "relevance": 4,
+    "reference_consistency": 5,
+    "completeness": 3,
+    "groundedness": 5,
+    "overall": 4.25
+  },
+  "brief_reason": "The Base answer fully enumerates the factors and conditions (cooperation, non‑interference, etc.) matching the reference, while the RAG answer only mentions the apprehension pre‑condition and statutory exclusions, omitting key conditions and thus is less complete."
+}

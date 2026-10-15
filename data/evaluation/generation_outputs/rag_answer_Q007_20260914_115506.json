@@ -1,0 +1,22 @@
+{
+  "query_id": "Q007",
+  "question": "Can anticipatory bail continue for an indefinite period?",
+  "generation_type": "RAG",
+  "provider": "provider_manager",
+  "primary_provider": "gemini",
+  "fallback_enabled": true,
+  "retrieval_used": true,
+  "reference_answer_used": false,
+  "retrieval_configuration": {
+    "retrieval_pipeline": "BM25 + Dense FAISS + RRF + case aggregation + relevance filtering + authority-aware reranking",
+    "max_cases": 5,
+    "supporting_chunks_per_case": 3,
+    "max_context_characters": 30000
+  },
+  "cases_considered": 3,
+  "evidence_records": 8,
+  "context_characters": 10931,
+  "context_truncated": false,
+  "answer": "The retrieved evidence does not directly address whether anticipatory bail can continue for an indefinite period. The cases provided discuss the maintainability of anticipatory bail applications and general bail principles, but none establish a rule on indefinite continuation.\n\n- In **Dhanraj Aswani vs Amar S. Mulchandani** (Supreme Court, 2024), the Court held that anticipatory bail is maintainable even if the accused is in custody in another case, but the right extinguishes upon formal arrest in the subsequent case.\n- In **Jagdish Kumar Arora vs Directorate of Enforcement** (High Court, 2025), the Court held that mere passage of time does not automatically entitle an accused to bail; delay must be substantive and unreasonable, and continued detention must not violate Article 21. However, this pertains to bail generally, not specifically to anticipatory bail's duration.\n\n**The available retrieved evidence is insufficient to determine whether anticipatory bail can continue indefinitely.**",
+  "generated_at": "2026-09-14T11:55:06.744854"
+}

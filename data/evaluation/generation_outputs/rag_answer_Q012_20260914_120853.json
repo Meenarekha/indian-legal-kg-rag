@@ -1,0 +1,22 @@
+{
+  "query_id": "Q012",
+  "question": "What rights does an arrested person have during criminal proceedings?",
+  "generation_type": "RAG",
+  "provider": "provider_manager",
+  "primary_provider": "gemini",
+  "fallback_enabled": true,
+  "retrieval_used": true,
+  "reference_answer_used": false,
+  "retrieval_configuration": {
+    "retrieval_pipeline": "BM25 + Dense FAISS + RRF + case aggregation + relevance filtering + authority-aware reranking",
+    "max_cases": 5,
+    "supporting_chunks_per_case": 3,
+    "max_context_characters": 30000
+  },
+  "cases_considered": 5,
+  "evidence_records": 11,
+  "context_characters": 16331,
+  "context_truncated": false,
+  "answer": "On the supplied evidence, an arrested person in India has the following safeguards:\n\n- **To be informed of the grounds of arrest:** Under Article 22(1), grounds must be communicated “as soon as may be.” *Mihir Rajesh Shah v. State of Maharashtra* also reiterates the right to receive the grounds **in writing**, with a copy furnished at the earliest, so the person can consult counsel and contest remand or seek bail.\n\n- **To consult an advocate:** Section 41D CrPC—now Section 38 BNSS—entitles the arrested person to meet an advocate of his choice **during interrogation, though not throughout it**. This includes meaningful legal assistance at the earliest stage, representation during remand proceedings, and invoking bail. Legal advice may also help the person understand the consequences of making a statement.\n\n- **To have the arrest disclosed to a nominated person:** Under Section 50A CrPC—now Section 48 BNSS—the arresting officer must promptly inform a relative, friend, or other person nominated by the arrested person about the arrest and where the person is being held. The arrested person must be told of this right at the police station, compliance must be recorded, and the producing Magistrate must verify compliance. Section 48 also requires notice to the designated police officer in the district.\n\n- **To safeguards during the arrest itself:** Section 41B CrPC requires the arresting police officer to wear clear identification, prepare an arrest memorandum attested by a family member or respectable local witness and countersigned by the arrested person, and inform the person of the right to have a relative or friend informed—unless a family member attests the memorandum.\n\n- **Protection against arbitrary deprivation of liberty:** Article 21 requires deprivation of liberty according to the procedure established by law. In special enactments, the arresting authority must possess material and record written reasons to believe that the person committed an offence. *Radhika Agarwal v. Union of India* applies these arrest safeguards to customs arrests.\n\n- **Magisterial oversight:** When the arrested person is produced before a Magistrate, the Magistrate must satisfy himself that notice of the arrest and recording requirements have been complied with.\n\nThe evidence does **not** establish a universal right to bail or an exhaustive catalogue of all arrestee rights. It also does not address matters such as silence, medical care, or the maximum time before production before a Magistrate. In customs cases, *Senior Intelligence Officer v. Jugal Kishore Samra* further permits an advocate or authorised person to observe from visual distance, but not within hearing distance or for consultations during interrogation.",
+  "generated_at": "2026-09-14T12:08:53.118298"
+}

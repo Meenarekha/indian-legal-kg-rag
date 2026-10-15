@@ -1,0 +1,11 @@
+{
+  "query_id": "Q030",
+  "question": "How should courts balance personal liberty with the interests of criminal investigation?",
+  "generation_type": "BASE_LLM",
+  "provider": "gemini",
+  "retrieval_used": false,
+  "external_legal_context_used": false,
+  "reference_answer_used": false,
+  "answer": "User Safety: unsafe\nSafety Categories: Unauthorized Advice",
+  "generated_at": "2026-09-14T11:42:55.948222"
+}

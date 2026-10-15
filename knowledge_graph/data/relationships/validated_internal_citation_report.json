@@ -1,0 +1,335 @@
+{
+  "metadata": {
+    "input_citation_edges": 54,
+    "validated_internal_citation_edges": 46,
+    "self_citations_removed": 8,
+    "duplicate_edges_removed": 0,
+    "source_cases": 26,
+    "target_cases": 15,
+    "method": "Exact normalized corpus case-name matching against cleaned judgment text, followed by self-citation detection using both case IDs and normalized case names, and duplicate removal."
+  },
+  "internal_citations": [
+    {
+      "source_case_id": "A_H_Wadia_Trust_vs_High_Court_On_Its_Own_Motion_And_7_Ors_on_8_May_2026",
+      "source_case_name": "A H Wadia Trust vs High Court On Its Own Motion And 7 Ors",
+      "target_case_id": "Kolkata_Municipal_Corporation_vs_Bimal_Kumar_Shah_on_16_May_2024",
+      "target_case_name": "Kolkata Municipal Corporation vs Bimal Kumar Shah",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Amit_Kumar_vs_Union_Of_India_on_24_March_2025",
+      "source_case_name": "Amit Kumar vs Union Of India",
+      "target_case_id": "Anjum_Kadari_vs_Union_Of_India_on_5_November_2024",
+      "target_case_name": "Anjum Kadari vs Union Of India",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Deloitte_Haskins_Sells_Llp_vs_Union_Of_India_Anr_on_7_February_2025",
+      "source_case_name": "Deloitte Haskins Sells Llp vs Union Of India Anr",
+      "target_case_id": "Jayesh_Gandhi_vs_Union_Of_India_Anr_on_7_February_2025",
+      "target_case_name": "Jayesh Gandhi vs Union Of India Anr",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Deloitte_Haskins_Sells_Llp_vs_Union_Of_India_Anr_on_7_February_2025",
+      "source_case_name": "Deloitte Haskins Sells Llp vs Union Of India Anr",
+      "target_case_id": "Ravi_Bansal_vs_Union_Of_India_Anr_on_7_February_2025",
+      "target_case_name": "Ravi Bansal vs Union Of India Anr",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Deloitte_Haskins_Sells_Llp_vs_Union_Of_India_Anr_on_7_February_2025",
+      "source_case_name": "Deloitte Haskins Sells Llp vs Union Of India Anr",
+      "target_case_id": "Snehal_N_Muzoomdar_vs_Union_Of_India_Anr_on_7_February_2025",
+      "target_case_name": "Snehal N Muzoomdar vs Union Of India Anr",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Deloitte_Haskins_Sells_Llp_vs_Union_Of_India_Anr_on_7_February_2025",
+      "source_case_name": "Deloitte Haskins Sells Llp vs Union Of India Anr",
+      "target_case_id": "Vinayak_Pujare_vs_Union_Of_India_Anr_on_7_February_2025",
+      "target_case_name": "Vinayak Pujare vs Union Of India Anr",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Dr_Jaya_Thakur_vs_Government_Of_India_on_30_January_2026",
+      "source_case_name": "Dr Jaya Thakur vs Government Of India",
+      "target_case_id": "Sukanya_Shantha_vs_Union_Of_India_on_3_October_2024",
+      "target_case_name": "Sukanya Shantha vs Union Of India",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Ehtesham_Qutubuddin_Siddique_vs_The_State_Of_Maharashtra_on_21_July_2025",
+      "source_case_name": "Ehtesham Qutubuddin Siddique vs The State Of Maharashtra",
+      "target_case_id": "Fuleshwar_Gope_vs_Union_Of_India_on_23_September_2024",
+      "target_case_name": "Fuleshwar Gope vs Union Of India",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Federation_Of_Chartered_Accountants_vs_Union_Of_India_And_Ors_on_7_February_2025",
+      "source_case_name": "Federation Of Chartered Accountants vs Union Of India And Ors",
+      "target_case_id": "Jayesh_Gandhi_vs_Union_Of_India_Anr_on_7_February_2025",
+      "target_case_name": "Jayesh Gandhi vs Union Of India Anr",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Federation_Of_Chartered_Accountants_vs_Union_Of_India_And_Ors_on_7_February_2025",
+      "source_case_name": "Federation Of Chartered Accountants vs Union Of India And Ors",
+      "target_case_id": "Ravi_Bansal_vs_Union_Of_India_Anr_on_7_February_2025",
+      "target_case_name": "Ravi Bansal vs Union Of India Anr",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Federation_Of_Chartered_Accountants_vs_Union_Of_India_And_Ors_on_7_February_2025",
+      "source_case_name": "Federation Of Chartered Accountants vs Union Of India And Ors",
+      "target_case_id": "Snehal_N_Muzoomdar_vs_Union_Of_India_Anr_on_7_February_2025",
+      "target_case_name": "Snehal N Muzoomdar vs Union Of India Anr",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Federation_Of_Chartered_Accountants_vs_Union_Of_India_And_Ors_on_7_February_2025",
+      "source_case_name": "Federation Of Chartered Accountants vs Union Of India And Ors",
+      "target_case_id": "Vinayak_Pujare_vs_Union_Of_India_Anr_on_7_February_2025",
+      "target_case_name": "Vinayak Pujare vs Union Of India Anr",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Federation_Of_Hotel_And_Restaurant_vs_Union_Of_India_Anr_on_28_March_2025",
+      "source_case_name": "Federation Of Hotel And Restaurant vs Union Of India Anr",
+      "target_case_id": "Noida_Toll_Bridge_Company_Ltd_vs_Federation_Of_Noida_Residents_Welfare_on_20_December_2024",
+      "target_case_name": "Noida Toll Bridge Company Ltd vs Federation Of Noida Residents Welfare",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Government_Of_Nct_Of_Delhi_vs_M_S_Bsk_Realtors_Llp_on_17_May_2024",
+      "source_case_name": "Government Of Nct Of Delhi vs M S Bsk Realtors Llp",
+      "target_case_id": "Delhi_Development_Authority_vs_Tejpal_on_17_May_2024",
+      "target_case_name": "Delhi Development Authority vs Tejpal",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Jayesh_Gandhi_vs_Union_Of_India_Anr_on_7_February_2025",
+      "source_case_name": "Jayesh Gandhi vs Union Of India Anr",
+      "target_case_id": "Ravi_Bansal_vs_Union_Of_India_Anr_on_7_February_2025",
+      "target_case_name": "Ravi Bansal vs Union Of India Anr",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Jayesh_Gandhi_vs_Union_Of_India_Anr_on_7_February_2025",
+      "source_case_name": "Jayesh Gandhi vs Union Of India Anr",
+      "target_case_id": "Snehal_N_Muzoomdar_vs_Union_Of_India_Anr_on_7_February_2025",
+      "target_case_name": "Snehal N Muzoomdar vs Union Of India Anr",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Jayesh_Gandhi_vs_Union_Of_India_Anr_on_7_February_2025",
+      "source_case_name": "Jayesh Gandhi vs Union Of India Anr",
+      "target_case_id": "Vinayak_Pujare_vs_Union_Of_India_Anr_on_7_February_2025",
+      "target_case_name": "Vinayak Pujare vs Union Of India Anr",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Maharashtra_Slum_Resident_Association_vs_High_Court_On_Its_Own_Motion_And_7_Ors_on_8_May_2026",
+      "source_case_name": "Maharashtra Slum Resident Association vs High Court On Its Own Motion And 7 Ors",
+      "target_case_id": "Kolkata_Municipal_Corporation_vs_Bimal_Kumar_Shah_on_16_May_2024",
+      "target_case_name": "Kolkata Municipal Corporation vs Bimal Kumar Shah",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Mihir_Rajesh_Shah_vs_The_State_Of_Maharashtra_on_6_November_2025",
+      "source_case_name": "Mihir Rajesh Shah vs The State Of Maharashtra",
+      "target_case_id": "Suhas_Chakma_vs_Union_Of_India_on_23_October_2024",
+      "target_case_name": "Suhas Chakma vs Union Of India",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Mohammad_Sajid_Margub_Ansari_vs_The_State_Of_Maharashtra_on_21_July_2025",
+      "source_case_name": "Mohammad Sajid Margub Ansari vs The State Of Maharashtra",
+      "target_case_id": "Fuleshwar_Gope_vs_Union_Of_India_on_23_September_2024",
+      "target_case_name": "Fuleshwar Gope vs Union Of India",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "National_Higiiways_Authority_Of_India_vs_Hk_Toll_Road_Pvt_Ltd_on_17_April_2025",
+      "source_case_name": "National Higiiways Authority Of India vs Hk Toll Road Pvt Ltd",
+      "target_case_id": "Ntpc_Limited_vs_Jindal_Itf_Limited_Anr_on_30_January_2025",
+      "target_case_name": "Ntpc Limited vs Jindal Itf Limited Anr",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Natrajan_Ramkrishna_vs_Union_Of_India_Anr_on_7_February_2025",
+      "source_case_name": "Natrajan Ramkrishna vs Union Of India Anr",
+      "target_case_id": "Jayesh_Gandhi_vs_Union_Of_India_Anr_on_7_February_2025",
+      "target_case_name": "Jayesh Gandhi vs Union Of India Anr",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Natrajan_Ramkrishna_vs_Union_Of_India_Anr_on_7_February_2025",
+      "source_case_name": "Natrajan Ramkrishna vs Union Of India Anr",
+      "target_case_id": "Ravi_Bansal_vs_Union_Of_India_Anr_on_7_February_2025",
+      "target_case_name": "Ravi Bansal vs Union Of India Anr",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Natrajan_Ramkrishna_vs_Union_Of_India_Anr_on_7_February_2025",
+      "source_case_name": "Natrajan Ramkrishna vs Union Of India Anr",
+      "target_case_id": "Snehal_N_Muzoomdar_vs_Union_Of_India_Anr_on_7_February_2025",
+      "target_case_name": "Snehal N Muzoomdar vs Union Of India Anr",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Natrajan_Ramkrishna_vs_Union_Of_India_Anr_on_7_February_2025",
+      "source_case_name": "Natrajan Ramkrishna vs Union Of India Anr",
+      "target_case_id": "Vinayak_Pujare_vs_Union_Of_India_Anr_on_7_February_2025",
+      "target_case_name": "Vinayak Pujare vs Union Of India Anr",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Ngo_Alliance_For_Governance_And_Renewal_vs_High_Court_On_Its_Own_Motion_And_7_Ors_on_8_May_2026",
+      "source_case_name": "Ngo Alliance For Governance And Renewal vs High Court On Its Own Motion And 7 Ors",
+      "target_case_id": "Kolkata_Municipal_Corporation_vs_Bimal_Kumar_Shah_on_16_May_2024",
+      "target_case_name": "Kolkata Municipal Corporation vs Bimal Kumar Shah",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Nivarahakk_Suraksha_Samiti_vs_High_Court_On_Its_Own_Motion_And_7_Ors_on_8_May_2026",
+      "source_case_name": "Nivarahakk Suraksha Samiti vs High Court On Its Own Motion And 7 Ors",
+      "target_case_id": "Kolkata_Municipal_Corporation_vs_Bimal_Kumar_Shah_on_16_May_2024",
+      "target_case_name": "Kolkata Municipal Corporation vs Bimal Kumar Shah",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Prajwala_vs_Union_Of_India_on_29_May_2026",
+      "source_case_name": "Prajwala vs Union Of India",
+      "target_case_id": "Dr_Jaya_Thakur_vs_Government_Of_India_on_30_January_2026",
+      "target_case_name": "Dr Jaya Thakur vs Government Of India",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Ravi_Bansal_vs_Union_Of_India_Anr_on_7_February_2025",
+      "source_case_name": "Ravi Bansal vs Union Of India Anr",
+      "target_case_id": "Jayesh_Gandhi_vs_Union_Of_India_Anr_on_7_February_2025",
+      "target_case_name": "Jayesh Gandhi vs Union Of India Anr",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Ravi_Bansal_vs_Union_Of_India_Anr_on_7_February_2025",
+      "source_case_name": "Ravi Bansal vs Union Of India Anr",
+      "target_case_id": "Snehal_N_Muzoomdar_vs_Union_Of_India_Anr_on_7_February_2025",
+      "target_case_name": "Snehal N Muzoomdar vs Union Of India Anr",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Ravi_Bansal_vs_Union_Of_India_Anr_on_7_February_2025",
+      "source_case_name": "Ravi Bansal vs Union Of India Anr",
+      "target_case_id": "Vinayak_Pujare_vs_Union_Of_India_Anr_on_7_February_2025",
+      "target_case_name": "Vinayak Pujare vs Union Of India Anr",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Shrenik_Baid_vs_Union_Of_India_And_Anr_on_7_February_2025",
+      "source_case_name": "Shrenik Baid vs Union Of India And Anr",
+      "target_case_id": "Jayesh_Gandhi_vs_Union_Of_India_Anr_on_7_February_2025",
+      "target_case_name": "Jayesh Gandhi vs Union Of India Anr",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Shrenik_Baid_vs_Union_Of_India_And_Anr_on_7_February_2025",
+      "source_case_name": "Shrenik Baid vs Union Of India And Anr",
+      "target_case_id": "Ravi_Bansal_vs_Union_Of_India_Anr_on_7_February_2025",
+      "target_case_name": "Ravi Bansal vs Union Of India Anr",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Shrenik_Baid_vs_Union_Of_India_And_Anr_on_7_February_2025",
+      "source_case_name": "Shrenik Baid vs Union Of India And Anr",
+      "target_case_id": "Snehal_N_Muzoomdar_vs_Union_Of_India_Anr_on_7_February_2025",
+      "target_case_name": "Snehal N Muzoomdar vs Union Of India Anr",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Shrenik_Baid_vs_Union_Of_India_And_Anr_on_7_February_2025",
+      "source_case_name": "Shrenik Baid vs Union Of India And Anr",
+      "target_case_id": "Vinayak_Pujare_vs_Union_Of_India_Anr_on_7_February_2025",
+      "target_case_name": "Vinayak Pujare vs Union Of India Anr",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Sit_Cid_Bengaluru_vs_Prajwal_Revanna_on_2_August_2025",
+      "source_case_name": "Sit Cid Bengaluru vs Prajwal Revanna",
+      "target_case_id": "Vibhor_Garg_vs_Neha_on_14_July_2025",
+      "target_case_name": "Vibhor Garg vs Neha",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Snehal_N_Muzoomdar_vs_Union_Of_India_Anr_on_7_February_2025",
+      "source_case_name": "Snehal N Muzoomdar vs Union Of India Anr",
+      "target_case_id": "Jayesh_Gandhi_vs_Union_Of_India_Anr_on_7_February_2025",
+      "target_case_name": "Jayesh Gandhi vs Union Of India Anr",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Snehal_N_Muzoomdar_vs_Union_Of_India_Anr_on_7_February_2025",
+      "source_case_name": "Snehal N Muzoomdar vs Union Of India Anr",
+      "target_case_id": "Ravi_Bansal_vs_Union_Of_India_Anr_on_7_February_2025",
+      "target_case_name": "Ravi Bansal vs Union Of India Anr",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Snehal_N_Muzoomdar_vs_Union_Of_India_Anr_on_7_February_2025",
+      "source_case_name": "Snehal N Muzoomdar vs Union Of India Anr",
+      "target_case_id": "Vinayak_Pujare_vs_Union_Of_India_Anr_on_7_February_2025",
+      "target_case_name": "Vinayak Pujare vs Union Of India Anr",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "State_Of_U_P_vs_M_S_Lalta_Prasad_Vaish_And_Sons_on_23_October_2024",
+      "source_case_name": "State Of U P vs M S Lalta Prasad Vaish And Sons",
+      "target_case_id": "Mineral_Area_Development_Authority_Etc_vs_M_S_Steel_Authority_Of_India_on_25_July_2024",
+      "target_case_name": "Mineral Area Development Authority Etc vs M S Steel Authority Of India",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "The_State_Of_Tamil_Nadu_vs_Junglee_Games_India_Private_Limited_on_27_May_2026",
+      "source_case_name": "The State Of Tamil Nadu vs Junglee Games India Private Limited",
+      "target_case_id": "Anjum_Kadari_vs_Union_Of_India_on_5_November_2024",
+      "target_case_name": "Anjum Kadari vs Union Of India",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Ved_Kumari_Through_Lr_Kewal_Kishan_Sethi_vs_E_S_Vasudevan_on_9_March_2026",
+      "source_case_name": "Ved Kumari Through Lr Kewal Kishan Sethi vs E S Vasudevan",
+      "target_case_id": "Suhas_Chakma_vs_Union_Of_India_on_23_October_2024",
+      "target_case_name": "Suhas Chakma vs Union Of India",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Vinayak_Pujare_vs_Union_Of_India_Anr_on_7_February_2025",
+      "source_case_name": "Vinayak Pujare vs Union Of India Anr",
+      "target_case_id": "Jayesh_Gandhi_vs_Union_Of_India_Anr_on_7_February_2025",
+      "target_case_name": "Jayesh Gandhi vs Union Of India Anr",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Vinayak_Pujare_vs_Union_Of_India_Anr_on_7_February_2025",
+      "source_case_name": "Vinayak Pujare vs Union Of India Anr",
+      "target_case_id": "Ravi_Bansal_vs_Union_Of_India_Anr_on_7_February_2025",
+      "target_case_name": "Ravi Bansal vs Union Of India Anr",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Vinayak_Pujare_vs_Union_Of_India_Anr_on_7_February_2025",
+      "source_case_name": "Vinayak Pujare vs Union Of India Anr",
+      "target_case_id": "Snehal_N_Muzoomdar_vs_Union_Of_India_Anr_on_7_February_2025",
+      "target_case_name": "Snehal N Muzoomdar vs Union Of India Anr",
+      "match_type": "exact_normalized_text"
+    },
+    {
+      "source_case_id": "Zameer_Ahmed_Latifur_Rehman_Shaikh_vs_The_State_Of_Maharashtra_on_21_July_2025",
+      "source_case_name": "Zameer Ahmed Latifur Rehman Shaikh vs The State Of Maharashtra",
+      "target_case_id": "Fuleshwar_Gope_vs_Union_Of_India_on_23_September_2024",
+      "target_case_name": "Fuleshwar Gope vs Union Of India",
+      "match_type": "exact_normalized_text"
+    }
+  ]
+}

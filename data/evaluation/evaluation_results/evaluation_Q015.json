@@ -1,0 +1,24 @@
+{
+  "query_id": "Q015",
+  "question": "When can the High Court exercise its inherent powers to quash criminal proceedings?",
+  "base_source_file": "data\\evaluation\\generation_outputs\\base_answer_Q015_20260914_112553.json",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q015_20260914_120937.json",
+  "base_provider": "gemini",
+  "rag_provider": "provider_manager",
+  "evaluation_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T13:29:19.250495",
+  "base": {
+    "relevance": 5.0,
+    "reference_consistency": 5.0,
+    "completeness": 5.0,
+    "overall": 5.0
+  },
+  "rag": {
+    "relevance": 4.0,
+    "reference_consistency": 4.0,
+    "completeness": 3.0,
+    "groundedness": 1.0,
+    "overall": 3.0
+  },
+  "brief_reason": "The Base answer directly mirrors the reference points, while the RAG answer adds several extra categories not in the reference and provides no supporting evidence, leading to lower consistency, completeness, and groundedness."
+}

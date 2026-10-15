@@ -1,0 +1,285 @@
+{
+    "dataset_name": "Indian Legal RAG Retrieval Evaluation",
+    "version": "1.0",
+    "description": "Evaluation queries for comparing traditional, BM25, semantic and proposed hybrid retrieval methods.",
+    "corpus_description": {
+        "total_cases": 205,
+        "supreme_court": 105,
+        "high_court": 40,
+        "district_court": 60
+    },
+    "annotation_status": "PENDING",
+    "ground_truth_policy": "Relevant cases must be identified from the current 205-case corpus using evidence inspection. Retrieved candidates must not automatically be treated as ground truth.",
+    "queries": [
+        {
+            "query_id": "Q001",
+            "domain": "Bail",
+            "query": "What are the conditions for granting anticipatory bail under Section 438 CrPC?",
+            "relevant_cases": [],
+            "relevant_passages": [],
+            "annotation_notes": "",
+            "annotation_status": "PENDING"
+        },
+        {
+            "query_id": "Q002",
+            "domain": "Bail",
+            "query": "What principles govern the exercise of discretion when deciding an application for anticipatory bail?",
+            "relevant_cases": [],
+            "relevant_passages": [],
+            "annotation_notes": "",
+            "annotation_status": "PENDING"
+        },
+        {
+            "query_id": "Q003",
+            "domain": "Bail",
+            "query": "When can an accused seek protection from arrest before being taken into custody?",
+            "relevant_cases": [],
+            "relevant_passages": [],
+            "annotation_notes": "",
+            "annotation_status": "PENDING"
+        },
+        {
+            "query_id": "Q004",
+            "domain": "Bail",
+            "query": "What factors should courts consider while deciding whether to grant bail?",
+            "relevant_cases": [],
+            "relevant_passages": [],
+            "annotation_notes": "",
+            "annotation_status": "PENDING"
+        },
+        {
+            "query_id": "Q005",
+            "domain": "Bail",
+            "query": "What is the relationship between personal liberty and the grant of bail?",
+            "relevant_cases": [],
+            "relevant_passages": [],
+            "annotation_notes": "",
+            "annotation_status": "PENDING"
+        },
+        {
+            "query_id": "Q006",
+            "domain": "Bail",
+            "query": "What limitations can be imposed while granting anticipatory bail?",
+            "relevant_cases": [],
+            "relevant_passages": [],
+            "annotation_notes": "",
+            "annotation_status": "PENDING"
+        },
+        {
+            "query_id": "Q007",
+            "domain": "Bail",
+            "query": "Can anticipatory bail continue for an indefinite period?",
+            "relevant_cases": [],
+            "relevant_passages": [],
+            "annotation_notes": "",
+            "annotation_status": "PENDING"
+        },
+        {
+            "query_id": "Q008",
+            "domain": "Bail",
+            "query": "What circumstances may justify cancellation or denial of bail?",
+            "relevant_cases": [],
+            "relevant_passages": [],
+            "annotation_notes": "",
+            "annotation_status": "PENDING"
+        },
+        {
+            "query_id": "Q009",
+            "domain": "Arrest",
+            "query": "What safeguards must be followed during the arrest of an accused?",
+            "relevant_cases": [],
+            "relevant_passages": [],
+            "annotation_notes": "",
+            "annotation_status": "PENDING"
+        },
+        {
+            "query_id": "Q010",
+            "domain": "Arrest",
+            "query": "What are the legal requirements governing arrest without a warrant?",
+            "relevant_cases": [],
+            "relevant_passages": [],
+            "annotation_notes": "",
+            "annotation_status": "PENDING"
+        },
+        {
+            "query_id": "Q011",
+            "domain": "Custody",
+            "query": "What principles govern police custody and judicial remand of an accused?",
+            "relevant_cases": [],
+            "relevant_passages": [],
+            "annotation_notes": "",
+            "annotation_status": "PENDING"
+        },
+        {
+            "query_id": "Q012",
+            "domain": "Arrest",
+            "query": "What rights does an arrested person have during criminal proceedings?",
+            "relevant_cases": [],
+            "relevant_passages": [],
+            "annotation_notes": "",
+            "annotation_status": "PENDING"
+        },
+        {
+            "query_id": "Q013",
+            "domain": "Arrest",
+            "query": "Under what circumstances can an accused challenge the legality of an arrest?",
+            "relevant_cases": [],
+            "relevant_passages": [],
+            "annotation_notes": "",
+            "annotation_status": "PENDING"
+        },
+        {
+            "query_id": "Q014",
+            "domain": "Criminal Procedure",
+            "query": "What principles govern quashing of criminal proceedings under Section 482 CrPC?",
+            "relevant_cases": [],
+            "relevant_passages": [],
+            "annotation_notes": "",
+            "annotation_status": "PENDING"
+        },
+        {
+            "query_id": "Q015",
+            "domain": "Criminal Procedure",
+            "query": "When can the High Court exercise its inherent powers to quash criminal proceedings?",
+            "relevant_cases": [],
+            "relevant_passages": [],
+            "annotation_notes": "",
+            "annotation_status": "PENDING"
+        },
+        {
+            "query_id": "Q016",
+            "domain": "Criminal Procedure",
+            "query": "What are the limitations on the High Court's power to quash criminal proceedings?",
+            "relevant_cases": [],
+            "relevant_passages": [],
+            "annotation_notes": "",
+            "annotation_status": "PENDING"
+        },
+        {
+            "query_id": "Q017",
+            "domain": "Criminal Procedure",
+            "query": "Can criminal proceedings be quashed when the allegations do not disclose an offence?",
+            "relevant_cases": [],
+            "relevant_passages": [],
+            "annotation_notes": "",
+            "annotation_status": "PENDING"
+        },
+        {
+            "query_id": "Q018",
+            "domain": "Criminal Procedure",
+            "query": "Should a High Court conduct a detailed evidentiary inquiry while deciding a quashing petition?",
+            "relevant_cases": [],
+            "relevant_passages": [],
+            "annotation_notes": "",
+            "annotation_status": "PENDING"
+        },
+        {
+            "query_id": "Q019",
+            "domain": "Evidence",
+            "query": "What principles govern the evidentiary value of statements recorded during criminal investigation?",
+            "relevant_cases": [],
+            "relevant_passages": [],
+            "annotation_notes": "",
+            "annotation_status": "PENDING"
+        },
+        {
+            "query_id": "Q020",
+            "domain": "Evidence",
+            "query": "What factors are considered when assessing the credibility of a witness?",
+            "relevant_cases": [],
+            "relevant_passages": [],
+            "annotation_notes": "",
+            "annotation_status": "PENDING"
+        },
+        {
+            "query_id": "Q021",
+            "domain": "Evidence",
+            "query": "What is the evidentiary value of a statement recorded under Section 164 CrPC?",
+            "relevant_cases": [],
+            "relevant_passages": [],
+            "annotation_notes": "",
+            "annotation_status": "PENDING"
+        },
+        {
+            "query_id": "Q022",
+            "domain": "Evidence",
+            "query": "When can inconsistencies in witness statements affect the prosecution case?",
+            "relevant_cases": [],
+            "relevant_passages": [],
+            "annotation_notes": "",
+            "annotation_status": "PENDING"
+        },
+        {
+            "query_id": "Q023",
+            "domain": "Special Statute",
+            "query": "What conditions govern the grant of bail in offences under the Prevention of Money Laundering Act?",
+            "relevant_cases": [],
+            "relevant_passages": [],
+            "annotation_notes": "",
+            "annotation_status": "PENDING"
+        },
+        {
+            "query_id": "Q024",
+            "domain": "Special Statute",
+            "query": "What are the statutory restrictions on granting bail under the PMLA?",
+            "relevant_cases": [],
+            "relevant_passages": [],
+            "annotation_notes": "",
+            "annotation_status": "PENDING"
+        },
+        {
+            "query_id": "Q025",
+            "domain": "Special Statute",
+            "query": "What principles govern the burden on an accused seeking bail under a special statute?",
+            "relevant_cases": [],
+            "relevant_passages": [],
+            "annotation_notes": "",
+            "annotation_status": "PENDING"
+        },
+        {
+            "query_id": "Q026",
+            "domain": "Special Statute",
+            "query": "What conditions apply to bail in cases involving offences under the NDPS Act?",
+            "relevant_cases": [],
+            "relevant_passages": [],
+            "annotation_notes": "",
+            "annotation_status": "PENDING"
+        },
+        {
+            "query_id": "Q027",
+            "domain": "Bail",
+            "query": "How do statutory restrictions affect the grant of bail for serious offences?",
+            "relevant_cases": [],
+            "relevant_passages": [],
+            "annotation_notes": "",
+            "annotation_status": "PENDING"
+        },
+        {
+            "query_id": "Q028",
+            "domain": "Bail",
+            "query": "What factors should courts consider when deciding bail under a special criminal statute?",
+            "relevant_cases": [],
+            "relevant_passages": [],
+            "annotation_notes": "",
+            "annotation_status": "PENDING"
+        },
+        {
+            "query_id": "Q029",
+            "domain": "Constitutional Law",
+            "query": "How does Article 21 protect personal liberty in criminal proceedings?",
+            "relevant_cases": [],
+            "relevant_passages": [],
+            "annotation_notes": "",
+            "annotation_status": "PENDING"
+        },
+        {
+            "query_id": "Q030",
+            "domain": "Constitutional Law",
+            "query": "How should courts balance personal liberty with the interests of criminal investigation?",
+            "relevant_cases": [],
+            "relevant_passages": [],
+            "annotation_notes": "",
+            "annotation_status": "PENDING"
+        }
+    ]
+}

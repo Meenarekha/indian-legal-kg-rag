@@ -1,0 +1,22 @@
+{
+  "query_id": "Q016",
+  "question": "What are the limitations on the High Court's power to quash criminal proceedings?",
+  "generation_type": "RAG",
+  "provider": "provider_manager",
+  "primary_provider": "gemini",
+  "fallback_enabled": true,
+  "retrieval_used": true,
+  "reference_answer_used": false,
+  "retrieval_configuration": {
+    "retrieval_pipeline": "BM25 + Dense FAISS + RRF + case aggregation + relevance filtering + authority-aware reranking",
+    "max_cases": 5,
+    "supporting_chunks_per_case": 3,
+    "max_context_characters": 30000
+  },
+  "cases_considered": 5,
+  "evidence_records": 7,
+  "context_characters": 9491,
+  "context_truncated": false,
+  "answer": "The retrieved authorities establish that the High Court’s power to quash criminal proceedings—under **Section 482 CrPC**, **Section 530 BNSS**, or **Article 226 of the Constitution**—is limited and exceptional.\n\nKey limitations are:\n\n- **No mini-trial or assessment of truth:** The High Court must not conduct a mini-trial or examine the truthfulness of allegations while deciding a quashing petition.  \n  *Just Rights For Children Alliance v. S. Harish*, Supreme Court.\n\n- **Quashing only for gross abuse of process:** Quashing is justified only where continuation of proceedings would amount to a **gross abuse of the process of law**.\n\n- **Recognised grounds are narrow:** Following *R.P. Kapur v. State of Punjab*, inherent power may be used where:\n  1. there is a clear legal bar to institution or continuance, e.g. want of sanction;\n  2. the allegations, taken at face value, do not constitute the alleged offence; or\n  3. the allegations constitute an offence, but there is no legal evidence or the evidence manifestly fails to prove the charge.\n\n- **Quashing is an exception, not the rule:** Criminal proceedings should not be scuttled at the initial stage. If the FIR or complaint broadly discloses an offence, the High Court should not usurp the investigative jurisdiction of the police.  \n  *S.M. Datta v. State of Gujarat*, as quoted in *Just Rights For Children Alliance*.\n\n- **Settlements do not automatically justify quashing:** Even where parties compromise, the Court must go slow. Quashing on settlement is appropriate only where conviction is remote and continuation would cause oppression or prejudice.\n\n- **Public/economic and corruption cases require greater caution:** The High Court must consider the impact on the financial/economic offences affecting the financial/economic system and offences against the State/society. In such cases, compromise between private parties is not enough. Corruption by a public servant is an offence against the State and society and cannot be treated like a private dispute.\n\n- **Statutory presumptions must be considered:** Quashing without considering the legal effect of statutory presumptions must be taken into account, because doing otherwise may scuttle trial and deny fair trial.\n\n- **Proper examination of record required:** The High Court should not quash without properly perusing the chargesheet and materials on record.\n\nThe supplied evidence does not provide an exhaustive list of all limitations on quashing power, but it clearly establishes that the power is discretionary, exceptional, and must be exercised cautiously without undermining trial, investigation, statutory schemes, or public interest.",
+  "generated_at": "2026-09-14T12:11:00.407644"
+}

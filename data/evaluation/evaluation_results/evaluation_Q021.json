@@ -1,0 +1,24 @@
+{
+  "query_id": "Q021",
+  "question": "What is the evidentiary value of a statement recorded under Section 164 CrPC?",
+  "base_source_file": "data\\evaluation\\generation_outputs\\base_answer_Q021_20260914_112659.json",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q021_20260914_121155.json",
+  "base_provider": "gemini",
+  "rag_provider": "provider_manager",
+  "evaluation_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T13:30:27.742650",
+  "base": {
+    "relevance": 5.0,
+    "reference_consistency": 4.0,
+    "completeness": 5.0,
+    "overall": 4.67
+  },
+  "rag": {
+    "relevance": 5.0,
+    "reference_consistency": 5.0,
+    "completeness": 5.0,
+    "groundedness": 1.0,
+    "overall": 4.0
+  },
+  "brief_reason": "Both answers address the question, but the Base answer adds discussion of confessions while the RAG answer adds extra credibility points; both are consistent with the reference, whereas the RAG answer lacks any supporting judicial citations."
+}

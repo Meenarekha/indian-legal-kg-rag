@@ -1,0 +1,24 @@
+{
+  "query_id": "Q024",
+  "question": "What are the statutory restrictions on granting bail under the PMLA?",
+  "base_source_file": "data\\evaluation\\generation_outputs\\base_answer_Q024_20260914_112728.json",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q024_20260914_122552.json",
+  "base_provider": "gemini",
+  "rag_provider": "provider_manager",
+  "evaluation_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T13:31:30.471226",
+  "base": {
+    "relevance": 5.0,
+    "reference_consistency": 5.0,
+    "completeness": 5.0,
+    "overall": 5.0
+  },
+  "rag": {
+    "relevance": 5.0,
+    "reference_consistency": 5.0,
+    "completeness": 5.0,
+    "groundedness": 1.0,
+    "overall": 4.0
+  },
+  "brief_reason": "Both answers correctly state the Section 45 twin conditions, but the RAG answer adds case citations without any supplied evidence, resulting in low groundedness."
+}

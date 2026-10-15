@@ -1,0 +1,50 @@
+{
+  "node_types": {
+    "Case": {
+      "description": "A judicial case or judgment",
+      "properties": [
+        "case_id",
+        "case_name",
+        "court",
+        "date",
+        "source_file"
+      ]
+    },
+    "Court": {
+      "description": "The court that decided the case",
+      "properties": [
+        "court_name"
+      ]
+    },
+    "CaseType": {
+      "description": "Broad legal classification of a case",
+      "properties": [
+        "case_type"
+      ]
+    },
+    "Judge": {
+      "description": "Judge or judges associated with the judgment",
+      "properties": [
+        "judge_name"
+      ]
+    },
+    "Act": {
+      "description": "An Act or statute mentioned in the judgment",
+      "properties": [
+        "act_name"
+      ]
+    },
+    "Section": {
+      "description": "A statutory or constitutional section/article mentioned in the judgment",
+      "properties": [
+        "section_name"
+      ]
+    },
+    "LegalIssue": {
+      "description": "A legal issue or topic discussed in the judgment",
+      "properties": [
+        "issue"
+      ]
+    }
+  }
+}

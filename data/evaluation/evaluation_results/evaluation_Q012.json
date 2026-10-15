@@ -1,0 +1,24 @@
+{
+  "query_id": "Q012",
+  "question": "What rights does an arrested person have during criminal proceedings?",
+  "base_source_file": "data\\evaluation\\generation_outputs\\base_answer_Q012_20260914_112519.json",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q012_20260914_120853.json",
+  "base_provider": "gemini",
+  "rag_provider": "provider_manager",
+  "evaluation_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T13:25:42.913688",
+  "base": {
+    "relevance": 5,
+    "reference_consistency": 5,
+    "completeness": 5,
+    "overall": 5.0
+  },
+  "rag": {
+    "relevance": 5,
+    "reference_consistency": 5,
+    "completeness": 5,
+    "groundedness": 1,
+    "overall": 4.0
+  },
+  "brief_reason": "Both answers cover the reference points, but the Base answer is fully consistent and complete. The RAG answer, while accurate, lacks any supporting evidence from the retrieved judicial material, resulting in low groundedness."
+}

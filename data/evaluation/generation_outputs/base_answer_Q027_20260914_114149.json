@@ -1,0 +1,11 @@
+{
+  "query_id": "Q027",
+  "question": "How do statutory restrictions affect the grant of bail for serious offences?",
+  "generation_type": "BASE_LLM",
+  "provider": "gemini",
+  "retrieval_used": false,
+  "external_legal_context_used": false,
+  "reference_answer_used": false,
+  "answer": "User Safety: safe",
+  "generated_at": "2026-09-14T11:41:49.695580"
+}

@@ -1,0 +1,22 @@
+{
+  "query_id": "Q006",
+  "question": "What limitations can be imposed while granting anticipatory bail?",
+  "generation_type": "RAG",
+  "provider": "provider_manager",
+  "primary_provider": "gemini",
+  "fallback_enabled": true,
+  "retrieval_used": true,
+  "reference_answer_used": false,
+  "retrieval_configuration": {
+    "retrieval_pipeline": "BM25 + Dense FAISS + RRF + case aggregation + relevance filtering + authority-aware reranking",
+    "max_cases": 5,
+    "supporting_chunks_per_case": 3,
+    "max_context_characters": 30000
+  },
+  "cases_considered": 5,
+  "evidence_records": 13,
+  "context_characters": 17372,
+  "context_truncated": false,
+  "answer": "**Limitations on the power to grant anticipatory bail (as derived from the supplied judgments)**  \n\n- **Statutory restriction under Section 438 CrPC** – The only express limitation on the court’s power is the provision in sub‑section (4) of Section 438 of the CrPC (para 60, *Dhanraj Aswani v Amar S Mulchandani*). No other express bar exists; the court may grant bail “if it thinks fit” (para 12).  \n\n- **Accused must not be arrested in relation to the offence** – Anticipatory bail may be applied for only before arrest; once the accused is arrested for that offence, the only remedy is regular bail under Sections 437 or 439 CrPC (para 39, *Dhanraj Aswani v Amar S Mulchandani*).  \n\n- **Discretionary conditions may be imposed** – Under Section 438(2) the court may include any conditions it deems fit, including the conditions listed in sub‑section (2) clauses (i)‑(iv) (para 12). The exact content of those clauses is not detailed, but the power to attach conditions is explicitly recognised.  \n\n- **Additional statutory limitations for certain offences** – For offences punishable for five years or more, bail is subject to the two‑condition regime under Section 37 (and the parallel provision in Section 45 of the PMLA, para 2, *Sarla Gupta v Directorate of Enforcement*):  \n  1. the Public Prosecutor must be given an opportunity to oppose the bail application; and  \n  2. the court must be satisfied that there are reasonable grounds to believe the accused is not guilty of the offence and is not likely to commit any offence while on bail.  \n\n- **Judicial exercise of discretion** – The discretion to grant anticipatory bail must be exercised judicially, not arbitrarily, and must be flexible enough to address unforeseen factual situations (para 14‑15, *Dhanraj Aswani v Amar S Mulchandani*).  \n\n- **Appellate/revisional oversight** – Orders granting anticipatory bail are not final; they are subject to appeal or revision, ensuring that the discretion is constrained by higher‑court scrutiny (para 14‑15, *Dhanraj Aswani v Amar S Mulchandani*).  \n\n**Summary** – The grant of anticipatory bail is limited by the express statutory restriction in Section 438(4) CrPC, the requirement that the applicant not be arrested for the offence, the court’s power to impose conditions under Section 438(2), additional five‑year‑or‑more offence limitations (Public Prosecutor’s opportunity to oppose and satisfaction of reasonable grounds of innocence and non‑reoffending), and the requirement that the discretion be exercised judicially with appellate oversight.",
+  "generated_at": "2026-09-14T11:50:29.156573"
+}

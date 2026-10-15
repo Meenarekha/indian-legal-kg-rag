@@ -1,0 +1,16 @@
+{
+  "query_id": "Q004",
+  "question": "What factors should courts consider while deciding whether to grant bail?",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q004_20260914_114921.json",
+  "cases_considered": 5,
+  "evidence_records": 0,
+  "context_characters": 19910,
+  "context_truncated": false,
+  "groundedness": 1.0,
+  "supported_claims": 0,
+  "unsupported_claims": 12,
+  "reason": "No judicial evidence was retrieved; therefore none of the listed bail factors are supported by the provided evidence.",
+  "evaluator_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T14:03:52.127466",
+  "method": "Claim-support evaluation against the actual retrieved judicial evidence."
+}

@@ -1,0 +1,22 @@
+{
+  "query_id": "Q026",
+  "question": "What conditions apply to bail in cases involving offences under the NDPS Act?",
+  "generation_type": "RAG",
+  "provider": "provider_manager",
+  "primary_provider": "gemini",
+  "fallback_enabled": true,
+  "retrieval_used": true,
+  "reference_answer_used": false,
+  "retrieval_configuration": {
+    "retrieval_pipeline": "BM25 + Dense FAISS + RRF + case aggregation + relevance filtering + authority-aware reranking",
+    "max_cases": 5,
+    "supporting_chunks_per_case": 3,
+    "max_context_characters": 30000
+  },
+  "cases_considered": 5,
+  "evidence_records": 14,
+  "context_characters": 21357,
+  "context_truncated": false,
+  "answer": "**Conditions that the courts must satisfy before granting bail in ND PS‑Act cases**\n\n| Source (case / provision) | Condition(s) imposed on bail |\n|----------------------------|------------------------------|\n| **Section 37 of the NDPS Act** (as explained in *Kailash Chandra Kapri v. State of Uttar Pradesh* (Supreme Court, 29 Apr 2026) and *Jagdish Kumar Arora v. Directorate of Enforcement* (High Court, 9 Apr 2025)) | 1. The court must be **satisfied that, on a prima‑facie basis, the accused is not guilty** of the offence.  <br>2. The court must be **satisfied that the accused is unlikely to commit any offence while released on bail**.  <br>These are “twin conditions” that circumscribe the discretion to grant bail in NDPS matters. |\n| **Section 36A of the NDPS Act** (referenced in *Suhas Chakma v. Union of India* (Supreme Court, 23 Oct 2024)) | Bail may be ordered **when the investigation is not completed within the statutory time‑frames** (60/90/180 days) prescribed under the Code of Criminal Procedure. The provision is invoked to prevent indefinite detention while the charge‑sheet is pending. |\n| **Section 436A of the CrPC** (discussed in *Kailash Chandra Kapri* and *Jagdish Kumar Arora*) | The same “delay‑bail” rule that applies to ordinary offences **extends to NDPS offences**. If the trial is delayed beyond a reasonable period, the court may grant bail despite the strictness of Section 37, provided the other statutory conditions are met. |\n| **Additional conditions imposed by the court** (illustrated in *Kailash Chandra Kapri* (Supreme Court, 2026)) | The trial court may attach **tailor‑made conditions** to ensure the accused does not jeopardise the investigation or public order, e.g.: <br>‑ Reporting weekly to the local police station. <br>‑ Providing a written undertaking that no new crime will be committed. <br>‑ Refraining from activities that could inflame communal sentiments. <br>These conditions are discretionary and must be reasonable, not excessive (see *Suhas Chakma* on the prohibition of “excessive bail”). |\n| **General bail principles** (derived from *Zeba Khan v. State of U.P.* (Supreme Court, 2026) and the CrPC) | The court must also consider the usual factors: nature and gravity of the accusation, antecedents of the applicant, likelihood of fleeing, and risk of tampering with evidence or influencing witnesses. While not specific to NDPS, they are applied in conjunction with the statutory requirements above. |\n\n### Summary of the bail regime for NDPS offences\n\n1. **Statutory twin‑test (Sec. 37)** – prima‑facie non‑guilt and no likelihood of re‑offending.  \n2. **Procedural safeguards** – the delay‑bail provision of Sec. 436A CrPC and the investigation‑delay provision of Sec. 36A NDPS Act can override the strictness of Sec. 37 when the trial or charge‑sheet is unreasonably delayed.  \n3. **Court‑imposed conditions** – courts may order reporting, undertakings, or other reasonable restrictions to protect the investigation and public order, provided they are not impossible or excessive.  \n4. **General bail considerations** – nature of the offence, criminal antecedents, risk of flight, and possibility of witness tampering remain relevant.\n\nThese conditions together constitute the current legal framework governing bail in cases arising under the Narcotic Drugs and Psychotropic Substances Act, as reflected in the cited judgments and statutory provisions.",
+  "generated_at": "2026-09-14T12:27:47.143993"
+}

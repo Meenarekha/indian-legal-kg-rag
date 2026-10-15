@@ -1,0 +1,24 @@
+{
+  "query_id": "Q023",
+  "question": "What conditions govern the grant of bail in offences under the Prevention of Money Laundering Act?",
+  "base_source_file": "data\\evaluation\\generation_outputs\\base_answer_Q023_20260914_112719.json",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q023_20260914_121226.json",
+  "base_provider": "gemini",
+  "rag_provider": "provider_manager",
+  "evaluation_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T13:31:07.487297",
+  "base": {
+    "relevance": 5.0,
+    "reference_consistency": 5.0,
+    "completeness": 5.0,
+    "overall": 5.0
+  },
+  "rag": {
+    "relevance": 5.0,
+    "reference_consistency": 5.0,
+    "completeness": 5.0,
+    "groundedness": 1.0,
+    "overall": 4.0
+  },
+  "brief_reason": "Both answers cover the twin conditions and related principles, but the RAG answer cites cases and details without any supporting retrieved evidence, resulting in low groundedness."
+}

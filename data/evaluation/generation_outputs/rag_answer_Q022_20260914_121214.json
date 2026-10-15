@@ -1,0 +1,22 @@
+{
+  "query_id": "Q022",
+  "question": "When can inconsistencies in witness statements affect the prosecution case?",
+  "generation_type": "RAG",
+  "provider": "provider_manager",
+  "primary_provider": "gemini",
+  "fallback_enabled": true,
+  "retrieval_used": true,
+  "reference_answer_used": false,
+  "retrieval_configuration": {
+    "retrieval_pipeline": "BM25 + Dense FAISS + RRF + case aggregation + relevance filtering + authority-aware reranking",
+    "max_cases": 5,
+    "supporting_chunks_per_case": 3,
+    "max_context_characters": 30000
+  },
+  "cases_considered": 5,
+  "evidence_records": 14,
+  "context_characters": 19291,
+  "context_truncated": false,
+  "answer": "Based on the retrieved legal evidence, inconsistencies in witness statements can affect the prosecution case under the following circumstances and principles:\n\n### 1. Material vs. Minor Inconsistencies\n* **Minor or Immaterial Inconsistencies:** Trivial discrepancies—such as variations in the sequence of events, the number of blows, or a witness failing to mention their own minor injuries while trying to protect a victim—do not automatically render testimony unreliable or affect the prosecution case, provided the core facts remain consistent and corroborated (*Byappanahalli P.S vs. A1 V. Vishnudevan*, District Court, 2025; *CBI vs. Amendra Kumar Ray*, District Court, 2025). \n* **Material Inconsistencies:** Only contradictions on **material particulars** that go to the root of the matter, shake the basic version of the witnesses, or create a doubt regarding the prosecution's version can be used to discredit witness testimony (*Byappanahalli P.S vs. A1 V. Vishnudevan*; *Zainul vs. The State of Bihar*, Supreme Court, 2025). \n\n### 2. Contradictions with Previous Statements (Section 161 Cr.P.C.)\n* **Inconsistencies between Court Testimony and Prior Statements:** When a witness's oral testimony in court differs in material particulars from their earlier recorded statements (such as police statements under Section 161 of the Cr.P.C.), the prosecution case becomes highly doubtful (*Byappanahalli P.S vs. A1 V. Vishnudevan*; *K.P. Tamilmaran vs. The State*, Supreme Court, 2025).\n* **Hostile Witnesses:** If a prosecution witness turns against the prosecution or contradicts their previous statements, the prosecution may request the court to declare the witness hostile and permit cross-examination (*K.P. Tamilmaran vs. The State*). Frequent contradictions among key prosecution witnesses can lead the defense to successfully argue that the prosecution has failed to prove guilt beyond a reasonable doubt (*K.P. Tamilmaran vs. The State*).\n\n### 3. Impact on Credibility and the Need for Corroboration\n* **Tutored or Unreliable Witnesses:** If inconsistencies suggest that a witness was tutored, exaggerated, or falsely implicated individuals who were ultimately not charged, the court may discard the witness's entire testimony (*Zainul vs. The State of Bihar*; *State of M.P. vs. Balveer Singh*, Supreme Court, 2025).\n* **Requirement of Corroboration:** If a witness's testimony is classified as \"neither wholly reliable nor wholly unreliable\" due to significant inconsistencies, the court cannot convict based on their sole testimony. In such cases, the court must look for independent corroboration in material particulars through other reliable direct or circumstantial evidence (*State of M.P. vs. Balveer Singh*).",
+  "generated_at": "2026-09-14T12:12:14.701889"
+}

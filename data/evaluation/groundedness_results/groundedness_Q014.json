@@ -1,0 +1,16 @@
+{
+  "query_id": "Q014",
+  "question": "What principles govern quashing of criminal proceedings under Section 482 CrPC?",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q014_20260914_120919.json",
+  "cases_considered": 5,
+  "evidence_records": 0,
+  "context_characters": 14481,
+  "context_truncated": false,
+  "groundedness": 1.0,
+  "supported_claims": 0,
+  "unsupported_claims": 12,
+  "reason": "No judicial evidence was retrieved, so none of the answer's claims are supported by the supplied evidence.",
+  "evaluator_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T14:05:35.757921",
+  "method": "Claim-support evaluation against the actual retrieved judicial evidence."
+}

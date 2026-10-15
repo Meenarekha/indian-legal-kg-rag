@@ -1,0 +1,14 @@
+{
+  "query_id": "Q028",
+  "question": "What factors should courts consider when deciding bail under a special criminal statute?",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q028_20260914_122933.json",
+  "evidence_records": 0,
+  "total_context_characters": null,
+  "groundedness": 1.0,
+  "supported_claims": 0,
+  "unsupported_claims": 12,
+  "reason": "No judicial passages were retrieved, so none of the answer's substantive claims can be linked to evidence.",
+  "evaluator_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T13:58:20.227819",
+  "method": "Claim-support evaluation against actual retrieved judicial evidence records."
+}

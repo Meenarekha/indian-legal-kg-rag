@@ -1,0 +1,22 @@
+{
+  "query_id": "Q015",
+  "question": "When can the High Court exercise its inherent powers to quash criminal proceedings?",
+  "generation_type": "RAG",
+  "provider": "provider_manager",
+  "primary_provider": "gemini",
+  "fallback_enabled": true,
+  "retrieval_used": true,
+  "reference_answer_used": false,
+  "retrieval_configuration": {
+    "retrieval_pipeline": "BM25 + Dense FAISS + RRF + case aggregation + relevance filtering + authority-aware reranking",
+    "max_cases": 5,
+    "supporting_chunks_per_case": 3,
+    "max_context_characters": 30000
+  },
+  "cases_considered": 5,
+  "evidence_records": 11,
+  "context_characters": 16524,
+  "context_truncated": false,
+  "answer": "**When the High Court may exercise its inherent powers to quash criminal proceedings (based on the supplied evidence):**\n\n- **No cognizable offence disclosed**  \n  *The allegations in the FIR or complaint, taken at face value, do not constitute an offence.*  \n  – *Just_Rights_For_Children_Alliance vs S Harish* (para 197‑198) – categories from **R.P. Kapur v. State of Punjab** (i) “where the allegations … do not constitute the offence alleged.”  \n\n- **Offence alleged but no legal evidence or evidence fails to prove the charge**  \n  – Same case, para 197‑198 – category (iii) “where the allegations constitute an offence, but there is no legal evidence adduced or the evidence adduced clearly or manifestly fails to prove the charge.”  \n\n- **Continuance would be a gross abuse of process**  \n  – *Just_Rights_For_Children_Alliance vs S Harish* (para 73) – “the High Court may be justified in quashing the chargesheet if it appears that continuance of criminal proceedings would be nothing but gross abuse of the process of law.”  \n  – Also, when “neither any offence as alleged in the FIR or charge‑sheet is disclosed nor any other offence is prima facie made out, and the continuance of the proceedings may be found to amount to abuse of process of law.” (*Just_Rights_For_Children_Alliance vs S Harish* para 202).\n\n- **Exceptionally, a settlement that makes conviction remote and continuation oppressive**  \n  – *Cbi_Bs_And_Fc_Blr vs Reddy_M_Tv* (para 167‑170) – “the High Court may quash the criminal proceeding if … the possibility of a conviction is remote and the continuation of a criminal proceeding would cause oppression and prejudice.”  \n\n- **Denial of the right to a speedy trial (Article 21)**  \n  – *Kailash_Chandra_Kapri vs State_of_Uttar_Pradesh* (para 14‑15) – when the High Court finds that allowing the proceedings to continue would violate the fundamental right to a speedy trial, it may exercise its inherent powers under **Section 528 BNSS** or **Article 226**.\n\n- **Power is exercised sparingly and only in exceptional circumstances**  \n  – *R. Kalyani v. Janak C. Mehta* (cited in *Just_Rights_For_Children_Alliance vs S Harish* para 183) – “The High Court ordinarily would not exercise its inherent jurisdiction to quash … unless the allegations … disclosed no cognizable offence. Such a power should be exercised very sparingly.”\n\n**Key limitations from the evidence**\n\n- The High Court must **not** conduct a mini‑trial or examine the truthfulness of allegations.  \n- It should not go beyond the FIR to assess mens rea or actus reus unless no offence is disclosed.  \n- Economic offences affecting the State’s financial well‑being are **outside** the settlement‑based exception (cannot be quashed merely because of a private compromise).  \n- The inherent power is **supplementary** to statutory provisions (e.g., Sections 482 CrPC, 530 BNSS, 528 BNSS) and must not conflict with the procedure expressly provided in the Code.\n\n**In summary:** The High Court may quash criminal proceedings only when the FIR/charge‑sheet discloses no cognizable offence, when there is no legal evidence to support an alleged offence, when continuation would constitute a gross abuse of process, when a settlement renders conviction remote and continuation oppressive (except for State‑affecting economic offences), or when the proceedings violate the right to a speedy trial. The power is to be used sparingly and only in exceptional cases.",
+  "generated_at": "2026-09-14T12:09:37.052211"
+}

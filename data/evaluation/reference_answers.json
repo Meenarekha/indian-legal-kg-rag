@@ -1,0 +1,160 @@
+{
+  "dataset_name": "Indian Legal RAG Reference Answers",
+  "version": "1.0",
+  "purpose": "Fixed reference answers for automated comparison of Base LLM and RAG answers.",
+  "evaluation_note": "These are evaluation reference answers, not independent legal-expert validation or personalized legal advice.",
+  "official_source_portal": "Supreme Court of India - Judgments and Orders Search",
+  "official_source_url": "https://scr.sci.gov.in/scrsearch/",
+  "answers": [
+    {
+      "query_id": "Q001",
+      "question": "What are the conditions for granting anticipatory bail under Section 438 CrPC?",
+      "reference_answer": "Anticipatory bail may be granted when a person has a reasonable apprehension of arrest for a non-bailable offence. The court considers the nature and gravity of the accusation, the applicant's antecedents, the possibility of fleeing from justice, the possibility of influencing witnesses or obstructing investigation, and other circumstances of the case. Conditions under Section 438(2), such as cooperation with investigation and non-interference with witnesses or evidence, may be imposed."
+    },
+    {
+      "query_id": "Q002",
+      "question": "What principles govern the exercise of discretion when deciding an application for anticipatory bail?",
+      "reference_answer": "The discretion under Section 438 CrPC must be exercised judicially on the facts and circumstances of each case. Courts should not impose restrictions that are not contemplated by the statute merely because anticipatory bail is an exceptional remedy. The decision must balance personal liberty with the legitimate interests of investigation and administration of justice. The Supreme Court's Gurbaksh Singh Sibbia principle is central here."
+    },
+    {
+      "query_id": "Q003",
+      "question": "When can an accused seek protection from arrest before being taken into custody?",
+      "reference_answer": "An accused can seek anticipatory bail when there is a reasonable apprehension of arrest for an offence and the accused has not yet been arrested for that offence. Once arrested for that particular offence, anticipatory bail is no longer the appropriate remedy and the accused must seek regular bail."
+    },
+    {
+      "query_id": "Q004",
+      "question": "What factors should courts consider while deciding whether to grant bail?",
+      "reference_answer": "Courts generally consider the nature and gravity of the accusation, the severity of the possible punishment, the prima facie material, the possibility of the accused fleeing, the possibility of tampering with evidence or influencing witnesses, criminal antecedents, likelihood of repetition of the offence, and the interests of justice. Bail decisions require balancing individual liberty with societal interests."
+    },
+    {
+      "query_id": "Q005",
+      "question": "What is the relationship between personal liberty and the grant of bail?",
+      "reference_answer": "Bail is closely connected with the constitutional protection of personal liberty under Article 21. Pre-trial detention should not become punishment before conviction. The normal principle is that bail is the rule and imprisonment before conviction is an exception, subject to the statutory framework and circumstances of the case."
+    },
+    {
+      "query_id": "Q006",
+      "question": "What limitations can be imposed while granting anticipatory bail?",
+      "reference_answer": "Under Section 438(2), the court may impose conditions such as requiring the accused to make himself available for interrogation, not directly or indirectly induce or threaten persons acquainted with the facts of the case, not leave India without permission, and comply with the conditions applicable through Section 437(3). Conditions must remain legally justified and should not unnecessarily restrict personal liberty."
+    },
+    {
+      "query_id": "Q007",
+      "question": "Can anticipatory bail continue for an indefinite period?",
+      "reference_answer": "Anticipatory bail does not ordinarily have to end after a fixed period. The Constitution Bench in Sushila Aggarwal held that protection under Section 438 should not invariably be limited to a fixed period and may continue until the end of trial. However, courts may impose an appropriate limitation where the facts of a particular case justify it."
+    },
+    {
+      "query_id": "Q008",
+      "question": "What circumstances may justify cancellation or denial of bail?",
+      "reference_answer": "Bail may be denied or cancelled where the accused misuses the liberty granted, interferes with witnesses or evidence, obstructs investigation or trial, commits a similar offence, attempts to flee from justice, or where other circumstances demonstrate that continued release would prejudice the administration of justice. Cancellation is concerned with misuse of liberty or circumstances showing that continued bail is no longer appropriate."
+    },
+    {
+      "query_id": "Q009",
+      "question": "What safeguards must be followed during the arrest of an accused?",
+      "reference_answer": "Arrest must not be automatic. Police must apply their mind to whether arrest is legally necessary and must comply with statutory and constitutional safeguards. The arrested person must be informed of the grounds of arrest, appropriate arrest documentation must be prepared, relatives or friends must be informed as required, and the person must be produced before the Magistrate within the constitutionally prescribed period."
+    },
+    {
+      "query_id": "Q010",
+      "question": "What are the legal requirements governing arrest without a warrant?",
+      "reference_answer": "Police may arrest without a warrant only where the statutory requirements permitting such arrest are satisfied. The existence of the power to arrest does not automatically justify exercising it. The police must satisfy the statutory conditions and record the reasons or necessity where required. Arrest cannot be made routinely merely because an allegation of an offence exists."
+    },
+    {
+      "query_id": "Q011",
+      "question": "What principles govern police custody and judicial remand of an accused?",
+      "reference_answer": "When investigation cannot be completed within the initial period of custody, the accused must be produced before the competent Magistrate for remand under the applicable provisions of the CrPC. Police custody and judicial custody are distinct forms of custody, and police custody requires judicial authorization. The Magistrate must apply judicial mind rather than grant remand mechanically."
+    },
+    {
+      "query_id": "Q012",
+      "question": "What rights does an arrested person have during criminal proceedings?",
+      "reference_answer": "An arrested person has constitutional and statutory protections including being informed of the grounds of arrest, the right to consult and be defended by a legal practitioner, the right to be produced before a Magistrate within the prescribed period, and protection against unlawful or arbitrary detention. Article 22 and Article 21 are central constitutional safeguards."
+    },
+    {
+      "query_id": "Q013",
+      "question": "Under what circumstances can an accused challenge the legality of an arrest?",
+      "reference_answer": "An accused may challenge an arrest where it violates statutory or constitutional requirements. Depending on the circumstances, remedies may include seeking bail, approaching the High Court under its constitutional or inherent jurisdiction, or seeking appropriate judicial relief against unlawful detention. The legality and necessity of the arrest can be examined by the competent court."
+    },
+    {
+      "query_id": "Q014",
+      "question": "What principles govern quashing of criminal proceedings under Section 482 CrPC?",
+      "reference_answer": "The inherent power under Section 482 CrPC is exercised to prevent abuse of the process of the court or otherwise secure the ends of justice. It is an exceptional jurisdiction and must be exercised sparingly. The court may intervene where the allegations, even if taken at face value, do not disclose an offence or where continuation of proceedings would constitute an abuse of process."
+    },
+    {
+      "query_id": "Q015",
+      "question": "When can the High Court exercise its inherent powers to quash criminal proceedings?",
+      "reference_answer": "The High Court may exercise Section 482 jurisdiction where the allegations do not constitute an offence, where continuation of proceedings would amount to abuse of process, where there is a legal bar to the proceedings, or where the circumstances fall within the recognized categories for exercising inherent jurisdiction. The power exists to secure the ends of justice and prevent abuse, not to conduct a full criminal trial."
+    },
+    {
+      "query_id": "Q016",
+      "question": "What are the limitations on the High Court's power to quash criminal proceedings?",
+      "reference_answer": "The High Court should exercise Section 482 jurisdiction sparingly and cautiously. It should not ordinarily conduct a detailed examination of evidence or determine disputed factual issues that belong to the trial court. The court must avoid converting a quashing proceeding into a mini-trial."
+    },
+    {
+      "query_id": "Q017",
+      "question": "Can criminal proceedings be quashed when the allegations do not disclose an offence?",
+      "reference_answer": "Yes. If the allegations, even when accepted at face value, do not disclose the ingredients of a cognizable offence, continuation of the criminal proceedings may amount to abuse of process. In such circumstances, the High Court can exercise its inherent jurisdiction to prevent abuse. This principle forms part of the recognized Bhajan Lal categories."
+    },
+    {
+      "query_id": "Q018",
+      "question": "Should a High Court conduct a detailed evidentiary inquiry while deciding a quashing petition?",
+      "reference_answer": "No. At the quashing stage, the High Court ordinarily should not conduct a detailed evidentiary inquiry or undertake a mini-trial. It primarily examines whether the allegations and available material disclose sufficient grounds for the criminal proceedings to continue. Detailed appreciation of evidence ordinarily belongs to the trial."
+    },
+    {
+      "query_id": "Q019",
+      "question": "What principles govern the evidentiary value of statements recorded during criminal investigation?",
+      "reference_answer": "A statement recorded by police during investigation under Section 161 CrPC is not substantive evidence. It has limited evidentiary use, particularly for contradicting the witness in accordance with the statutory procedure. It cannot ordinarily be treated as independent proof of the facts stated in it."
+    },
+    {
+      "query_id": "Q020",
+      "question": "What factors are considered when assessing the credibility of a witness?",
+      "reference_answer": "Courts consider the consistency, reliability and naturalness of the witness's testimony, the witness's opportunity to observe the event, corroboration from other evidence, possible bias or motive, and whether contradictions materially affect the core prosecution case. Minor inconsistencies arising from normal lapses of memory do not automatically destroy credibility. Material contradictions affecting the core of the case can, however, create serious doubt."
+    },
+    {
+      "query_id": "Q021",
+      "question": "What is the evidentiary value of a statement recorded under Section 164 CrPC?",
+      "reference_answer": "A statement recorded under Section 164 CrPC is generally not substantive evidence by itself. A witness's Section 164 statement may be used for corroboration or contradiction in the legally permitted manner. The substantive evidence ordinarily comes from testimony given in court."
+    },
+    {
+      "query_id": "Q022",
+      "question": "When can inconsistencies in witness statements affect the prosecution case?",
+      "reference_answer": "Not every inconsistency destroys the prosecution case. Courts distinguish between minor discrepancies and material contradictions. An inconsistency becomes significant when it materially affects the core version of the prosecution or creates a serious doubt about the witness's truthfulness or reliability."
+    },
+    {
+      "query_id": "Q023",
+      "question": "What conditions govern the grant of bail in offences under the Prevention of Money Laundering Act?",
+      "reference_answer": "For offences to which Section 45 PMLA applies, the court must consider the statutory twin conditions in addition to the ordinary principles governing bail. The court must have reasonable grounds for believing that the accused is not guilty of the offence and that the accused is unlikely to commit an offence while on bail, subject to the statutory framework. The court need not conduct a full trial at the bail stage; it makes a prima-facie assessment based on the material available."
+    },
+    {
+      "query_id": "Q024",
+      "question": "What are the statutory restrictions on granting bail under the PMLA?",
+      "reference_answer": "Section 45 PMLA imposes special statutory conditions on bail for the offences covered by that provision. The Public Prosecutor must be given an opportunity to oppose the application, and where opposed, the court must be satisfied regarding the statutory twin conditions concerning reasonable grounds for believing that the accused is not guilty and the likelihood of not committing an offence while on bail."
+    },
+    {
+      "query_id": "Q025",
+      "question": "What principles govern the burden on an accused seeking bail under a special statute?",
+      "reference_answer": "Where a special statute imposes additional bail requirements, the accused must satisfy the statutory conditions prescribed by that law. The court must apply the special statutory test together with the ordinary principles of bail and constitutional liberty. The burden is therefore affected by the specific statutory framework rather than being governed only by the general CrPC provisions."
+    },
+    {
+      "query_id": "Q026",
+      "question": "What conditions apply to bail in cases involving offences under the NDPS Act?",
+      "reference_answer": "Section 37 NDPS Act imposes stringent conditions for bail in cases covered by that provision. The Public Prosecutor must be given an opportunity to oppose the application, and where opposed, the court must have reasonable grounds for believing that the accused is not guilty and is unlikely to commit an offence while on bail."
+    },
+    {
+      "query_id": "Q027",
+      "question": "How do statutory restrictions affect the grant of bail for serious offences?",
+      "reference_answer": "Special statutory restrictions make bail more demanding than ordinary bail because the legislature may require additional conditions to be satisfied. However, such restrictions operate within the constitutional framework of personal liberty. Courts must apply the statutory requirements strictly while also ensuring that pre-trial detention does not become punishment before conviction."
+    },
+    {
+      "query_id": "Q028",
+      "question": "What factors should courts consider when deciding bail under a special criminal statute?",
+      "reference_answer": "Courts consider the ordinary bail factors together with the specific statutory restrictions. These may include the nature and seriousness of the offence, the available material, the possibility of tampering with evidence or influencing witnesses, criminal antecedents, flight risk, and, where applicable, the special statutory conditions concerning the accused's prima-facie involvement and likelihood of committing another offence."
+    },
+    {
+      "query_id": "Q029",
+      "question": "How does Article 21 protect personal liberty in criminal proceedings?",
+      "reference_answer": "Article 21 provides that no person shall be deprived of life or personal liberty except according to procedure established by law. Supreme Court jurisprudence has expanded this protection to require a fair, just and reasonable procedure. In criminal proceedings, this constitutional protection informs the law relating to arrest, detention, bail and other restrictions on liberty."
+    },
+    {
+      "query_id": "Q030",
+      "question": "How should courts balance personal liberty with the interests of criminal investigation?",
+      "reference_answer": "Courts must balance the individual's fundamental right to personal liberty against the legitimate needs of criminal investigation and the interests of society. Arrest or continued detention must have legal justification and cannot be used merely as punishment before conviction. At the same time, bail conditions or detention may be justified where necessary to prevent flight, interference with witnesses or evidence, obstruction of investigation, or other threats to the administration of justice."
+    }
+  ]
+}

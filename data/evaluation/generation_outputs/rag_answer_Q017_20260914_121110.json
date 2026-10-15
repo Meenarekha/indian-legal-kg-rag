@@ -1,0 +1,22 @@
+{
+  "query_id": "Q017",
+  "question": "Can criminal proceedings be quashed when the allegations do not disclose an offence?",
+  "generation_type": "RAG",
+  "provider": "provider_manager",
+  "primary_provider": "gemini",
+  "fallback_enabled": true,
+  "retrieval_used": true,
+  "reference_answer_used": false,
+  "retrieval_configuration": {
+    "retrieval_pipeline": "BM25 + Dense FAISS + RRF + case aggregation + relevance filtering + authority-aware reranking",
+    "max_cases": 5,
+    "supporting_chunks_per_case": 3,
+    "max_context_characters": 30000
+  },
+  "cases_considered": 5,
+  "evidence_records": 8,
+  "context_characters": 10541,
+  "context_truncated": false,
+  "answer": "Yes, criminal proceedings can be quashed when the allegations do not disclose an offence. The Supreme Court has recognized this as a valid ground under the inherent powers of the court. Key principles drawn from the retrieved evidence are as follows:\n\n- **Recognized ground for quashing:** In *R.P. Kapur v. State of Punjab* (AIR 1960 SC 866), as summarised by the Supreme Court, one of the categories where inherent power can and should be exercised to quash proceedings is: **\"where the allegations in the first information report or complaint taken at its face value and accepted in their entirety do not constitute the offence alleged.\"** (*Just Rights For Children Alliance vs S. Harish*, Supreme Court, 23 September 2024).\n\n- **The governing test:** The test is whether the allegations in the complaint or FIR disclose a criminal offence or not. If they do not, proceedings may be quashed. This principle was affirmed in *Indian Oil Corpn. v. NEPC India Ltd.* (2006) 6 SCC 736, as cited in *Dineshchand Surana vs Uco Bank* (Supreme Court, 27 May 2026).\n\n- **Quashing is an exception, not a rule:** The Supreme Court in *S.M. Datta v. State of Gujarat* (2001) 7 SCC 659 cautioned that \"criminal proceedings ought not to be scuttled at the initial stage. Quashing of a complaint or FIR should rather be an exception and a rarity than an ordinary rule.\" Courts should not usurp the jurisdiction of the police if a perusal of the FIR leads to disclosure of an offence even broadly (*Just Rights For Children Alliance vs S. Harish*).\n\n- **Other related grounds for quashing** (from the *R.P. Kapur* framework as reiterated in *Just Rights For Children Alliance*):\n  - Where there is a manifest legal bar against the institution or continuance of proceedings (e.g., want of sanction).\n  - Where the allegations constitute an offence, but no legal evidence is adduced or the evidence manifestly fails to prove the charge.\n\nIn summary, while the absence of an offence-creating allegation in the FIR or complaint is a recognized and legitimate basis for quashing criminal proceedings, courts approach such petitions with caution, treating quashing as an exceptional remedy rather than a routine one.",
+  "generated_at": "2026-09-14T12:11:10.741849"
+}

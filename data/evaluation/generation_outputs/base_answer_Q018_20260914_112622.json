@@ -1,0 +1,11 @@
+{
+  "query_id": "Q018",
+  "question": "Should a High Court conduct a detailed evidentiary inquiry while deciding a quashing petition?",
+  "generation_type": "BASE_LLM",
+  "provider": "gemini",
+  "retrieval_used": false,
+  "external_legal_context_used": false,
+  "reference_answer_used": false,
+  "answer": "**No, a High Court should not conduct a detailed evidentiary inquiry while deciding a quashing petition.**\n\n### Explanation and Key Legal Principles\n\nUnder Indian criminal jurisprudence—primarily governed by **Section 482 of the Code of Criminal Procedure, 1973 (CrPC)** (now Section 528 of the Bharatiya Nagarik Suraksha Sanhita, 2023)—the High Court exercises inherent powers to prevent the abuse of the process of any court or to secure the ends of justice. However, the scope of this power at the quashing stage is well-settled:\n\n1. **No \"Mini-Trial\":** The High Court cannot conduct a detailed mini-trial, weigh conflicting evidence, or assess the credibility and reliability of witnesses/documents. \n2. **Prima Facie Standard:** The Court is only required to examine whether the allegations made in the First Information Report (FIR) or complaint, taken at their face value and accepted in their entirety, prima facie disclose the commission of a cognizable offence.\n3. **Appreciation of Evidence:** Questions regarding the truthfulness, sufficiency, or admissibility of evidence are matters to be determined during the trial by the competent trial court, not by the High Court in a quashing petition.\n4. **Exceptions:** The High Court may quash proceedings only if the allegations, even if accepted as true, do not constitute any offence, or if the prosecution is manifestly attended with mala fides or constitutes a blatant abuse of legal process.\n\nIn summary, conducting a detailed evidentiary inquiry at the stage of deciding a quashing petition exceeds the limited scope of the High Court's inherent jurisdiction under Section 482 CrPC.\n\n***\n\n*Disclaimer: This response is generated for academic and educational purposes only and does not constitute personalized legal advice.*",
+  "generated_at": "2026-09-14T11:26:22.455884"
+}

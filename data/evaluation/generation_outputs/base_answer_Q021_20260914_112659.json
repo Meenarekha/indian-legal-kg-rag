@@ -1,0 +1,11 @@
+{
+  "query_id": "Q021",
+  "question": "What is the evidentiary value of a statement recorded under Section 164 CrPC?",
+  "generation_type": "BASE_LLM",
+  "provider": "gemini",
+  "retrieval_used": false,
+  "external_legal_context_used": false,
+  "reference_answer_used": false,
+  "answer": "Under Indian criminal jurisprudence, the evidentiary value of a statement recorded by a Magistrate under **Section 164 of the Code of Criminal Procedure, 1973 (CrPC)** depends on whether it is a statement of a witness or a confession of an accused.\n\n### 1. Statement of a Witness\n* **Not Substantive Evidence:** A statement of a witness recorded under Section 164 CrPC is **not substantive evidence**. The conviction of an accused cannot be based solely on a Section 164 statement without the witness testifying in court during the trial.\n* **Corroboration:** It can be used by the prosecution to **corroborate** the evidence given by the witness during trial under Section 157 of the Indian Evidence Act, 1872.\n* **Contradiction:** It can be used by the defense (or prosecution, if permitted) to **contradict** or cross-examine the witness under Section 145 of the Indian Evidence Act, 1872, to impeach their credibility.\n* **Exception (Dying Declaration):** If the maker of the statement dies before testifying in court, and the statement relates to the cause of their death, it may become admissible as substantive evidence under Section 32(1) of the Indian Evidence Act.\n\n### 2. Confession of an Accused\n* **Substantive Evidence:** A confession recorded by a Magistrate under Section 164 CrPC is **substantive evidence** against the accused who made it, provided statutory safeguards (e.g., warning the accused that they are not bound to confess, ensuring voluntariness) were strictly complied with.\n* **Basis for Conviction:** A voluntary and true confession recorded under Section 164 CrPC can form the sole basis of conviction, though courts often seek independent corroboration as a matter of judicial prudence.\n\n***\n\n*Disclaimer: This response is generated for academic and legal research purposes and does not constitute personalized legal advice.*",
+  "generated_at": "2026-09-14T11:26:59.313362"
+}

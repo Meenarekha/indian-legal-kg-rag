@@ -1,0 +1,24 @@
+{
+  "query_id": "Q008",
+  "question": "What circumstances may justify cancellation or denial of bail?",
+  "base_source_file": "data\\evaluation\\generation_outputs\\base_answer_Q008_20260914_112426.json",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q008_20260914_115513.json",
+  "base_provider": "gemini",
+  "rag_provider": "provider_manager",
+  "evaluation_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T13:24:10.284251",
+  "base": {
+    "relevance": 5,
+    "reference_consistency": 5,
+    "completeness": 5,
+    "overall": 5.0
+  },
+  "rag": {
+    "relevance": 5,
+    "reference_consistency": 4,
+    "completeness": 4,
+    "groundedness": 1,
+    "overall": 3.5
+  },
+  "brief_reason": "The Base answer fully covers and aligns with the reference points, while the RAG answer omits some reference items (e.g., committing a similar offence) and provides no supporting evidence for its claims."
+}

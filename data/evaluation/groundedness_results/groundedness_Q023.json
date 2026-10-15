@@ -1,0 +1,14 @@
+{
+  "query_id": "Q023",
+  "question": "What conditions govern the grant of bail in offences under the Prevention of Money Laundering Act?",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q023_20260914_121226.json",
+  "evidence_records": 0,
+  "total_context_characters": null,
+  "groundedness": 1.0,
+  "supported_claims": 0,
+  "unsupported_claims": 7,
+  "reason": "No judicial evidence was retrieved, so none of the answer's claims can be verified as supported.",
+  "evaluator_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T13:57:10.860196",
+  "method": "Claim-support evaluation against actual retrieved judicial evidence records."
+}

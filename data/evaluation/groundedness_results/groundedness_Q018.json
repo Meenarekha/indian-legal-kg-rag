@@ -1,0 +1,16 @@
+{
+  "query_id": "Q018",
+  "question": "Should a High Court conduct a detailed evidentiary inquiry while deciding a quashing petition?",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q018_20260914_121115.json",
+  "cases_considered": 5,
+  "evidence_records": 0,
+  "context_characters": 13165,
+  "context_truncated": false,
+  "groundedness": 1.0,
+  "supported_claims": 0,
+  "unsupported_claims": 5,
+  "reason": "No judicial evidence was retrieved; therefore none of the answer's substantive claims are supported.",
+  "evaluator_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T14:06:13.531664",
+  "method": "Claim-support evaluation against the actual retrieved judicial evidence."
+}

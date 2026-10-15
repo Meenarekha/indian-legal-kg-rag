@@ -1,0 +1,11 @@
+{
+  "questions_evaluated": 19,
+  "average_groundedness": 1.526,
+  "total_supported_claims": 18,
+  "total_unsupported_claims": 69,
+  "evaluator_model": "openai/gpt-oss-120b",
+  "evaluation_method": "Automated claim-support evaluation against actual retrieved judicial evidence.",
+  "formal_citation_requirement": false,
+  "legal_expert_validation": false,
+  "note": "Groundedness measures whether substantive claims in the generated RAG answer are supported by retrieved judicial evidence. It does not constitute professional legal validation."
+}

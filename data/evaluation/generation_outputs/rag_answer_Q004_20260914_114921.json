@@ -1,0 +1,22 @@
+{
+  "query_id": "Q004",
+  "question": "What factors should courts consider while deciding whether to grant bail?",
+  "generation_type": "RAG",
+  "provider": "provider_manager",
+  "primary_provider": "gemini",
+  "fallback_enabled": true,
+  "retrieval_used": true,
+  "reference_answer_used": false,
+  "retrieval_configuration": {
+    "retrieval_pipeline": "BM25 + Dense FAISS + RRF + case aggregation + relevance filtering + authority-aware reranking",
+    "max_cases": 5,
+    "supporting_chunks_per_case": 3,
+    "max_context_characters": 30000
+  },
+  "cases_considered": 5,
+  "evidence_records": 13,
+  "context_characters": 19910,
+  "context_truncated": false,
+  "answer": "Courts are required to examine a range of relevant considerations before granting bail.  The retrieved judgments and statutory provisions identify the following factors:\n\n- **Nature and gravity of the accusation** – including the manner in which the offence is alleged to have been committed and the severity of the punishment if convicted.  \n- **Role attributed to the accused** – the part played by the applicant in the alleged offence.  \n- **Criminal antecedents** – whether the applicant has previously undergone imprisonment on conviction for any cognizable offence.  \n- **Likelihood of tampering with evidence or witnesses** – the probability that the accused will influence, threaten or otherwise interfere with prosecution witnesses or evidence.  \n- **Flight risk / danger of absconding** – the possibility that the accused will flee from justice if released on bail.  \n- **Character, behaviour, means, position and standing of the accused** – personal circumstances that may affect the risk of non‑appearance or misuse of liberty.  \n- **Likelihood of the offence being repeated** – whether the accused is likely to commit the same or a similar offence while on bail.  \n- **Reasonable apprehension of witnesses being influenced** – any credible threat to the safety or testimony of witnesses.  \n- **Danger of justice being thwarted** – the risk that granting bail will obstruct proceedings, evade courts of justice or otherwise impede the investigation.  \n- **Prima facie or reasonable ground to believe the accused committed the offence** – whether there is sufficient basis to proceed with the charge.  \n- **Overall impact on society / societal impact of an undue indulgence** – the broader effect of releasing the accused, especially when the investigation is at an early stage.  \n- **Whether the accusation is made with the object of injuring or humiliating the applicant** – a specific consideration under Section 438 of the CrPC for anticipatory bail.  \n\nThese factors have been articulated in cases such as *Zeba Khan v. State of U.P.* (Supreme Court), *State of Haryana v. Dharamraj* (Supreme Court), and the statutory text of Section 438 of the Code of Criminal Procedure.  The court must weigh these considerations judiciously, bearing in mind that bail is the rule and jail the exception, while ensuring that discretion is not exercised on irrelevant or extraneous grounds.",
+  "generated_at": "2026-09-14T11:49:21.730974"
+}

@@ -1,0 +1,22 @@
+{
+  "query_id": "Q013",
+  "question": "Under what circumstances can an accused challenge the legality of an arrest?",
+  "generation_type": "RAG",
+  "provider": "provider_manager",
+  "primary_provider": "gemini",
+  "fallback_enabled": true,
+  "retrieval_used": true,
+  "reference_answer_used": false,
+  "retrieval_configuration": {
+    "retrieval_pipeline": "BM25 + Dense FAISS + RRF + case aggregation + relevance filtering + authority-aware reranking",
+    "max_cases": 5,
+    "supporting_chunks_per_case": 3,
+    "max_context_characters": 30000
+  },
+  "cases_considered": 5,
+  "evidence_records": 11,
+  "context_characters": 15458,
+  "context_truncated": false,
+  "answer": "## Circumstances Under Which an Accused Can Challenge the Legality of an Arrest\n\nBased on the retrieved legal evidence, the following circumstances permit an accused to challenge the legality of an arrest:\n\n### 1. Failure to Furnish \"Reasons to Believe\" or Grounds of Arrest\n- Under **Section 19(1) of the PML Act**, the accused is entitled to challenge their arrest if the \"reasons to believe\" are not furnished to them. The Supreme Court in **Radhika Agarwal vs Union of India** held that these reasons must be supplied so the accused can challenge the validity of their arrest. Exceptions are available only in one-off cases where appropriate redactions are permissible. *(Radhika Agarwal vs Union of India, Supreme Court, 27 February 2025)*\n- Under **Article 22(1) of the Constitution** and **Section 47 of BNSS 2023** (equivalent to Section 50 of CrPC 1973), grounds of arrest must be communicated in writing at the time of arrest or the earliest possible instance. Non-communication constitutes a violation of the accused's constitutional right, enabling them to challenge the arrest. *(Mihir Rajesh Shah vs The State of Maharashtra, Supreme Court, 6 November 2025)*\n\n### 2. Through Judicial Review of the Arrest\n- Courts possess an inherent power of **judicial review** over the legality of arrest, permissible both **before and after** criminal proceedings or prosecution complaints are filed. The material relied upon by the arresting authority must be **admissible before a court of law**. *(Radhika Agarwal vs Union of India, Supreme Court, 27 February 2025)*\n\n### 3. When Arrest Is Malafide or Irregular\nUnder **Article 226 or Article 32** of the Constitution, judicial intervention is warranted when the arrest is:\n- **Prima facie malafide**;\n- Prompted by **extraneous circumstances**;\n- Made in **contravention of or breach of provisions** of the concerned statute; or\n- Made by an authority that **lacks the requisite authority** to arrest. *(Radhika Agarwal vs Union of India, Supreme Court, 27 February 2025)*\n\n### 4. When Arrest Occurs While in Custody for a Different Offence\n- The accused can challenge arrest even while in custody for a different offence, as procedural law does not preclude arrest for a separate offence. The accused retains the statutory right to apply for **anticipatory bail** regardless of existing custody. *(Dhanraj Aswani vs Amar S Mulchandani, Supreme Court, 9 September 2024)*\n\n### 5. Right to Legal Aid at First Production\n- The accused has the right to consult and be defended by a legal practitioner when first produced before a Magistrate. The Magistrate must inform the accused of this right, flowing from **Articles 21 and 22(1)** of the Constitution. *(Sunita Devi vs The State of Bihar, Supreme Court, 17 May 2024)*\n\n### Important Caveat\nThe retrieved evidence also notes that there is **no absolute rule** that a defective arrest vitiates all connected investigative procedures. The effect of any procedural lapse must be assessed in context, considering the nature of the investigation and the circumstances of the case. *(Mihir Rajesh Shah vs The State of Maharashtra, Supreme Court, 6 November 2025)*",
+  "generated_at": "2026-09-14T12:09:07.354659"
+}

@@ -1,0 +1,24 @@
+{
+  "query_id": "Q005",
+  "question": "What is the relationship between personal liberty and the grant of bail?",
+  "base_source_file": "data\\evaluation\\generation_outputs\\base_answer_Q005_20260914_101034.json",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q005_20260914_114933.json",
+  "base_provider": "gemini",
+  "rag_provider": "provider_manager",
+  "evaluation_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T13:23:11.711504",
+  "base": {
+    "relevance": 5,
+    "reference_consistency": 5,
+    "completeness": 5,
+    "overall": 5.0
+  },
+  "rag": {
+    "relevance": 5,
+    "reference_consistency": 5,
+    "completeness": 5,
+    "groundedness": 1,
+    "overall": 4.0
+  },
+  "brief_reason": "Both answers address the question and align with the reference, but the RAG answer lacks any supporting citations because no evidence was retrieved, resulting in a low groundedness score."
+}

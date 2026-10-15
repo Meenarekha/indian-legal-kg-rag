@@ -1,0 +1,11 @@
+{
+  "query_id": "Q029",
+  "question": "How does Article 21 protect personal liberty in criminal proceedings?",
+  "generation_type": "BASE_LLM",
+  "provider": "gemini",
+  "retrieval_used": false,
+  "external_legal_context_used": false,
+  "reference_answer_used": false,
+  "answer": "Article 21 of the Indian Constitution safeguards personal liberty in criminal proceedings by ensuring that no person can be deprived of their life or liberty **except according to a fair, just, and reasonable procedure established by law**. This principle applies to all stages of criminal proceedings, including:\n\n1. **Arrest and Detention**:  \n   - Police must follow prescribed procedures for arrest, including informing the accused of the grounds for arrest and producing them before a magistrate within 24 hours.  \n   - Preventive detention must comply with legal safeguards, such as the right to be heard and the requirement of lawful authority.\n\n2. **Trial and Due Process**:  \n   - The accused has the right to a fair trial, including being informed of charges, the right to legal representation, and the right to a speedy trial.  \n   - Delays in trial without justification may violate Article 21 by infringing on personal liberty through prolonged pre-trial detention.\n\n3. **Bail and Custody**:  \n   - The right to bail is a critical aspect of Article 21, as it prevents arbitrary or prolonged incarceration. Courts must grant bail unless there are reasonable grounds to believe the accused will flee, tamper with evidence, or commit further offenses.\n\n4. **Procedural Fairness**:  \n   - Laws and actions taken by the state must be **non-arbitrary**, **proportionate**, and **for a public purpose**. Any law or procedure violating these principles can be challenged as unconstitutional.\n\n5. **Dignity and Human Rights**:  \n   - The Supreme Court has interpreted Article 21 to include broader rights, such as the right to live with human dignity, access to justice, and protection from cruel or inhumane treatment.\n\nViolations of these protections can be addressed through judicial review, allowing courts to invalidate unlawful actions or laws. Article 21 thus acts as a cornerstone of personal liberty in India’s criminal justice system, ensuring state power is exercised within constitutional limits.",
+  "generated_at": "2026-09-14T11:42:41.218299"
+}

@@ -1,0 +1,24 @@
+{
+  "query_id": "Q029",
+  "question": "How does Article 21 protect personal liberty in criminal proceedings?",
+  "base_source_file": "data\\evaluation\\generation_outputs\\base_answer_Q029_20260914_114241.json",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q029_20260914_123030.json",
+  "base_provider": "gemini",
+  "rag_provider": "provider_manager",
+  "evaluation_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T13:32:58.898690",
+  "base": {
+    "relevance": 5.0,
+    "reference_consistency": 5.0,
+    "completeness": 5.0,
+    "overall": 5.0
+  },
+  "rag": {
+    "relevance": 5.0,
+    "reference_consistency": 5.0,
+    "completeness": 5.0,
+    "groundedness": 1.0,
+    "overall": 4.0
+  },
+  "brief_reason": "Both answers address the question and align with the reference, but the RAG answer provides case citations without any retrieved evidence, resulting in no grounded support."
+}

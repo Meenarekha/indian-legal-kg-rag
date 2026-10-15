@@ -1,0 +1,22 @@
+{
+  "query_id": "Q021",
+  "question": "What is the evidentiary value of a statement recorded under Section 164 CrPC?",
+  "generation_type": "RAG",
+  "provider": "provider_manager",
+  "primary_provider": "gemini",
+  "fallback_enabled": true,
+  "retrieval_used": true,
+  "reference_answer_used": false,
+  "retrieval_configuration": {
+    "retrieval_pipeline": "BM25 + Dense FAISS + RRF + case aggregation + relevance filtering + authority-aware reranking",
+    "max_cases": 5,
+    "supporting_chunks_per_case": 3,
+    "max_context_characters": 30000
+  },
+  "cases_considered": 5,
+  "evidence_records": 12,
+  "context_characters": 16343,
+  "context_truncated": false,
+  "answer": "**Evidentiary value of a statement recorded under Section 164 CrPC (as reflected in the supplied case law):**\n\n- **Not substantive evidence** – The courts have held that a Section 164 statement is *not* a substantive piece of evidence in the sense of oral testimony given in court and subject to cross‑examination.  \n- **Relevant and admissible for limited purposes** – Under Section 157 of the Indian Evidence Act, such a statement may be used **only for corroboration and contradiction** of other witnesses’ testimony.  \n- **Higher credibility than Section 161 statements** – Because it is recorded by a **Judicial Magistrate** (not by a police officer), the law treats it as carrying greater reliability and is not bound by the restrictions of Sections 161/162 CrPC.  \n- **Weight determined case‑by‑case** – The court decides the **evidentiary weight** (i.e., reliability) of a Section 164 statement on a factual basis, considering whether the deponent has stuck to or departed from it. A retraction is not conclusive; the court examines the circumstances and may infer manipulation.  \n- **Use against a hostile witness** – If a witness later turns hostile, the earlier Section 164 statement can be used to **impeach** that witness and to **corroborate** other evidence.  \n- **Potential for perjury prosecution** – A deponent who falsely retracts a signed Section 164 statement may be prosecuted for perjury, but the statement alone cannot sustain a conviction.  \n- **Cannot be discarded lightly** – Courts require a **judicial satisfaction** that the statement reflects the true version of events; a mere claim of incorrect recording is insufficient to reject it.  \n\n**In summary:** A Section 164 CrPC statement is not substantive proof, but it is a relevant, admissible piece of evidence that may be employed for corroboration or contradiction, carries enhanced credibility due to judicial recording, and its probative value is assessed by the trial court on the facts of each case.",
+  "generated_at": "2026-09-14T12:11:55.331619"
+}

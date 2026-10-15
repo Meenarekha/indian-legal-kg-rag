@@ -1,0 +1,42 @@
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+
+# Local configuration
+.vscode/
+.idea/
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Raw legal corpus
+data/raw/
+
+# Generated processed data and indexes
+data/processed/
+data/indexes/
+data/embeddings/
+*.faiss
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# Generated outputs
+outputs/
+results/

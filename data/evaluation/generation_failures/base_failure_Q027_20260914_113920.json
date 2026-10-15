@@ -1,0 +1,8 @@
+{
+  "query_id": "Q027",
+  "question": "How do statutory restrictions affect the grant of bail for serious offences?",
+  "generation_type": "BASE_LLM",
+  "error_type": "TypeError",
+  "error": "ProviderManager.generate() got an unexpected keyword argument 'primary_provider'",
+  "failed_at": "2026-09-14T11:39:20.979088"
+}

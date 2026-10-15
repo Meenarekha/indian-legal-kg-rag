@@ -1,0 +1,22 @@
+{
+  "query_id": "Q014",
+  "question": "What principles govern quashing of criminal proceedings under Section 482 CrPC?",
+  "generation_type": "RAG",
+  "provider": "provider_manager",
+  "primary_provider": "gemini",
+  "fallback_enabled": true,
+  "retrieval_used": true,
+  "reference_answer_used": false,
+  "retrieval_configuration": {
+    "retrieval_pipeline": "BM25 + Dense FAISS + RRF + case aggregation + relevance filtering + authority-aware reranking",
+    "max_cases": 5,
+    "supporting_chunks_per_case": 3,
+    "max_context_characters": 30000
+  },
+  "cases_considered": 5,
+  "evidence_records": 11,
+  "context_characters": 14481,
+  "context_truncated": false,
+  "answer": "Under **Section 482 CrPC**, the High Court’s inherent power to quash criminal proceedings is exceptional and must be exercised:\n\n- **Very sparingly and with circumspection**, even in “rarest of rare” cases (*State of Haryana v. Bhajan Lal*, as discussed in *Just Rights for Children Alliance v. S. Harish*).\n- To **prevent an abuse of the court’s process** or to **secure the ends of justice**.\n- Where continuation of proceedings would be **nothing but a gross abuse of process**.\n\nThe retrieved evidence identifies the following principles:\n\n1. **Examine the allegations at their face value.**  \n   At the FIR or complaint stage, the High Court should assume the allegations to be true in their entirety and ask whether they disclose an offence.\n\n2. **No mini-trial or assessment of truthfulness.**  \n   The High Court must not conduct a mini-trial, evaluate the reliability or genuineness of allegations, or decide disputed facts (*Bhajan Lal*; *Just Rights for Children Alliance*).\n\n3. **No final determination of defences.**  \n   Defences available to the accused, including questions of participation, transmission or mental state, generally require trial evidence and cannot be finally adjudicated in a quashing petition (*Nupur Ghatge v. State of Madhya Pradesh*).\n\n4. **Quash where there is a legal bar.**  \n   Proceedings may be quashed where a legal prohibition prevents their institution or continuance, such as the absence of a required sanction (*R.P. Kapur v. State of Punjab*).\n\n5. **Quash where the allegations, even if accepted, disclose no offence.**  \n   If the allegations do not constitute the alleged offence or make out a case against the accused, quashing may be warranted (*Bhajan Lal*).\n\n6. **Quash where legal evidence is absent or plainly insufficient.**  \n   The power may be exercised where no legal evidence supports the charge, or the evidence clearly and manifestly fails to prove it (*R.P. Kapur*).\n\n7. **Preserve fair investigation and trial.**  \n   The broader purpose of criminal procedure is a fair and just investigation, ensuring that actual perpetrators are booked and innocent persons are not compelled to stand trial (District Court judgment in *CBI A.C.B. Bangalore v. A.1. Basavaraj*).\n\nSection 482 may also be used to direct **further investigation or reinvestigation** where the investigation is not proceeding in the proper direction and such direction is necessary to secure the ends of justice. Section 173(8) CrPC does not restrict this inherent power in an appropriate case.\n\nThe retrieved extracts do **not** set out the complete exhaustive list of *Bhajan Lal* categories, so no additional categories should be inferred from the supplied evidence.",
+  "generated_at": "2026-09-14T12:09:19.537508"
+}

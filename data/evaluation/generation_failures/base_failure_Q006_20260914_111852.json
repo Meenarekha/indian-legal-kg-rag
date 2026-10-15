@@ -1,0 +1,8 @@
+{
+  "query_id": "Q006",
+  "question": "What limitations can be imposed while granting anticipatory bail?",
+  "generation_type": "BASE_LLM",
+  "error_type": "RuntimeError",
+  "error": "All configured LLM providers failed.\ngemini: Gemini generation failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}\ngrok: Error code: 403 - {'code': 'permission-denied', 'error': \"Your newly created team doesn't have any credits or licenses yet. You can purchase those on https://console.x.ai/team/caff56b0-6770-4cce-bcc5-6b462e716e6d.\"}",
+  "failed_at": "2026-09-14T11:18:52.528771"
+}

@@ -1,0 +1,16 @@
+{
+  "query_id": "Q007",
+  "question": "Can anticipatory bail continue for an indefinite period?",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q007_20260914_115506.json",
+  "cases_considered": 3,
+  "evidence_records": 0,
+  "context_characters": 10931,
+  "context_truncated": false,
+  "groundedness": 3.0,
+  "supported_claims": 3,
+  "unsupported_claims": 2,
+  "reason": "The answer correctly notes that no retrieved evidence is available, which is supported. However, it cites specific case holdings that are not present in the retrieved evidence, making those claims unsupported.",
+  "evaluator_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T14:04:19.361457",
+  "method": "Claim-support evaluation against the actual retrieved judicial evidence."
+}

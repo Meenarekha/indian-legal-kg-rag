@@ -1,0 +1,201 @@
+{
+  "metadata": {
+    "input_edges": 16,
+    "valid_edges": 16,
+    "invalid_edges": 0,
+    "self_citations": 0,
+    "duplicates": 0,
+    "invalid_relationships": 0,
+    "missing_context": 0,
+    "missing_classification": 0,
+    "relationship_counts": {
+      "REFERS_TO": 4,
+      "CITES": 5,
+      "REITERATES": 1,
+      "CONSIDERS": 3,
+      "RELIES_ON": 1,
+      "ENDORSES": 1,
+      "COMPLIES_WITH": 1
+    },
+    "validation_status": "PASS"
+  },
+  "edges": [
+    {
+      "source_case_id": "A_H_Wadia_Trust_vs_High_Court_On_Its_Own_Motion_And_7_Ors_on_8_May_2026",
+      "source_case_name": "A H Wadia Trust vs High Court On Its Own Motion And 7 Ors",
+      "target_case_id": "Kolkata_Municipal_Corporation_vs_Bimal_Kumar_Shah_on_16_May_2024",
+      "target_case_name": "Kolkata Municipal Corporation vs Bimal Kumar Shah",
+      "relationship": "REFERS_TO",
+      "classification": "strong_candidate",
+      "strong_signal_count": 5,
+      "weak_signal_count": 0,
+      "context": "rty fourth amendment act 1978 however a modified version was inserted and the right to property continues to be constitutionally protected under article 300a although no longer in the nature of a fundamental right the provision has been characterised as a p v rane smwp1 2024 doc constitutional and human right 264 a two judge bench of this court in kolkata municipal corporation v bimal kumar shah speaking through justice ps narasimha had occasion to discuss the scope and content of article 300 a and the constitutional vision in relation to private property this court held that merely providing compensation does not justify compulsory acquisition by the state unless procedural safeguards are followed it was observed that a post colonial rea"
+    },
+    {
+      "source_case_id": "Amit_Kumar_vs_Union_Of_India_on_24_March_2025",
+      "source_case_name": "Amit Kumar vs Union Of India",
+      "target_case_id": "Anjum_Kadari_vs_Union_Of_India_on_5_November_2024",
+      "target_case_name": "Anjum Kadari vs Union Of India",
+      "relationship": "CITES",
+      "classification": "strong_candidate",
+      "strong_signal_count": 2,
+      "weak_signal_count": 0,
+      "context": "e this distress yet it can be managed by introducing flexible curricula continuous assessment methods structured support for managing backlogs and on campus support for psychological issues faced by the students 11 64 another cause of student suicides remains brutality in the form of ragging which is often concealed by colleges and universities to anjum kadari v union of india 2024 scc online sc 3129 amit kumar v union of india on 24 march 2025 supra 8 safeguard their reputation this violates the right to dignity and education of students it has been clarified by this court in farzana batool v union of india 2021 scc online sc 3433 that while the right to pursue higher professional education has not been spelt out as a "
+    },
+    {
+      "source_case_id": "Dr_Jaya_Thakur_vs_Government_Of_India_on_30_January_2026",
+      "source_case_name": "Dr Jaya Thakur vs Government Of India",
+      "target_case_id": "Sukanya_Shantha_vs_Union_Of_India_on_3_October_2024",
+      "target_case_name": "Sukanya Shantha vs Union Of India",
+      "relationship": "REITERATES",
+      "classification": "strong_candidate",
+      "strong_signal_count": 3,
+      "weak_signal_count": 0,
+      "context": " scc online sc 1639 wherein this court recognized that stereotype exacerbates systemic inequalities and inhibits dignified participation in education or employment what has been conveyed in so many words by this court is that stereotype stem from a lack of familiarity and this lack arises due to inadequate representation and participation again in sukanya shantha v union of india reported in 2024 15 scc 535 this court reiterated that meaningful participation in social life is obstructed when treatment is based on stereotype 106 the aforesaid expositions leave no manner of doubt in our minds that the right to participation recognizes that individuals are inherently social and for a dignified life one shall have the ability "
+    },
+    {
+      "source_case_id": "Ehtesham_Qutubuddin_Siddique_vs_The_State_Of_Maharashtra_on_21_July_2025",
+      "source_case_name": "Ehtesham Qutubuddin Siddique vs The State Of Maharashtra",
+      "target_case_id": "Fuleshwar_Gope_vs_Union_Of_India_on_23_September_2024",
+      "target_case_name": "Fuleshwar Gope vs Union Of India",
+      "relationship": "CONSIDERS",
+      "classification": "strong_candidate",
+      "strong_signal_count": 5,
+      "weak_signal_count": 0,
+      "context": "f mofussil in the circumstances we reject the submission of the defence and it is held that shri jaiswal had authority to grant prior approval to invoke mcoca in the present matter 688 before discussing points no 2 to 6 it will be beneficial to reiterate the law as regards prior approval we have considered hosts of authorities on this point namely fuleshwar gope v union of india reported in 2024 scc online 2610 central bureau of investigation v ashok kumar agrawal reported in 2014 14 scc 295 prakash singh badal v state of punjab reported in 2007 1 scc 1 state of karnataka v s subbegowda reported in 2023 scc online sc 911 vijay rajmohan v central bureau of investigation reported in 2023 1 scc 329 state of m p v harishankar"
+    },
+    {
+      "source_case_id": "Federation_Of_Hotel_And_Restaurant_vs_Union_Of_India_Anr_on_28_March_2025",
+      "source_case_name": "Federation Of Hotel And Restaurant vs Union Of India Anr",
+      "target_case_id": "Noida_Toll_Bridge_Company_Ltd_vs_Federation_Of_Noida_Residents_Welfare_on_20_December_2024",
+      "target_case_name": "Noida Toll Bridge Company Ltd vs Federation Of Noida Residents Welfare",
+      "relationship": "CITES",
+      "classification": "strong_candidate",
+      "strong_signal_count": 3,
+      "weak_signal_count": 0,
+      "context": "rporation the court at this juncture would clarify that there can be no issue with the proposition of law as stands settled by the various earlier decisions of this court with regard to the power and modality of charging of tax levy which obviously has to be done in terms of the power conferred under by authority by law 127 further in the judgment noida toll bridge company ltd v federation of noida residents welfare association and others 2024 scc online sc 3831 the supreme court re emphasized that the power to levy a tax or fee cannot be inferred by implication but must be expressly federation of hotel and restaurant v union of india anr on 28 march 2025 conferred by a statute the supreme court in this judgement expressly determined that no private entity ca"
+    },
+    {
+      "source_case_id": "Government_Of_Nct_Of_Delhi_vs_M_S_Bsk_Realtors_Llp_on_17_May_2024",
+      "source_case_name": "Government Of Nct Of Delhi vs M S Bsk Realtors Llp",
+      "target_case_id": "Delhi_Development_Authority_vs_Tejpal_on_17_May_2024",
+      "target_case_name": "Delhi Development Authority vs Tejpal",
+      "relationship": "CITES",
+      "classification": "strong_candidate",
+      "strong_signal_count": 2,
+      "weak_signal_count": 1,
+      "context": "8 f analysis 24 f 1 res judicata 24 f 2 s u p p r e s s i o n o f m a t e r i a l f a c t s b y a p p e l l a n t s 2 8 f 3 m e r g e r 31 f 4 allegations of fraud committed by landowners 38 g conclusion 41 annexure 1 1 in view of the reasons assigned in the judgment pronounced by hon ble surya kant j speaking for the three of us minutes before in delhi development authority v tejpal and others1 delay in presentation of all the special leave petitions slps hereafter under consideration stands condoned except those mentioned in group b 2 which have been rendered infructuous as discussed later in this judgment and group d which we have directed to be de tagged for separate listing 2 special leave is granted in all the slps excep"
+    },
+    {
+      "source_case_id": "Maharashtra_Slum_Resident_Association_vs_High_Court_On_Its_Own_Motion_And_7_Ors_on_8_May_2026",
+      "source_case_name": "Maharashtra Slum Resident Association vs High Court On Its Own Motion And 7 Ors",
+      "target_case_id": "Kolkata_Municipal_Corporation_vs_Bimal_Kumar_Shah_on_16_May_2024",
+      "target_case_name": "Kolkata Municipal Corporation vs Bimal Kumar Shah",
+      "relationship": "REFERS_TO",
+      "classification": "strong_candidate",
+      "strong_signal_count": 5,
+      "weak_signal_count": 0,
+      "context": "rty fourth amendment act 1978 however a modified version was inserted and the right to property continues to be constitutionally protected under article 300a although no longer in the nature of a fundamental right the provision has been characterised as a p v rane smwp1 2024 doc constitutional and human right 264 a two judge bench of this court in kolkata municipal corporation v bimal kumar shah speaking through justice ps narasimha had occasion to discuss the scope and content of article 300 a and the constitutional vision in relation to private property this court held that merely providing compensation does not justify compulsory acquisition by the state unless procedural safeguards are followed it was observed that a post colonial rea"
+    },
+    {
+      "source_case_id": "Mihir_Rajesh_Shah_vs_The_State_Of_Maharashtra_on_6_November_2025",
+      "source_case_name": "Mihir Rajesh Shah vs The State Of Maharashtra",
+      "target_case_id": "Suhas_Chakma_vs_Union_Of_India_on_23_October_2024",
+      "target_case_name": "Suhas Chakma vs Union Of India",
+      "relationship": "CITES",
+      "classification": "strong_candidate",
+      "strong_signal_count": 3,
+      "weak_signal_count": 0,
+      "context": "edy as may be available to him her under law 35 it is pertinent to note that the arrested person must be given early access to legal assistance to enable him to defend himself and oppose the remand the early access to legal counsel becomes a quintessential object to ensure that the personal liberty of the arrested person is protected this court in suhas chakma v union of india and others6 while emphasizing on the need of pre litigation assistance has directed that the guidelines on early access to justice at pre arrest arrest and remand stage framework as framed by the national legal services authority are to be diligently pursued the guidelines provide for legal assistance to the arrested person at the stage before rem"
+    },
+    {
+      "source_case_id": "Mohammad_Sajid_Margub_Ansari_vs_The_State_Of_Maharashtra_on_21_July_2025",
+      "source_case_name": "Mohammad Sajid Margub Ansari vs The State Of Maharashtra",
+      "target_case_id": "Fuleshwar_Gope_vs_Union_Of_India_on_23_September_2024",
+      "target_case_name": "Fuleshwar Gope vs Union Of India",
+      "relationship": "CONSIDERS",
+      "classification": "strong_candidate",
+      "strong_signal_count": 5,
+      "weak_signal_count": 0,
+      "context": "f mofussil in the circumstances we reject the submission of the defence and it is held that shri jaiswal had authority to grant prior approval to invoke mcoca in the present matter 688 before discussing points no 2 to 6 it will be beneficial to reiterate the law as regards prior approval we have considered hosts of authorities on this point namely fuleshwar gope v union of india reported in 2024 scc online 2610 central bureau of investigation v ashok kumar agrawal reported in 2014 14 scc 295 prakash singh badal v state of punjab reported in 2007 1 scc 1 state of karnataka v s subbegowda reported in 2023 scc online sc 911 vijay rajmohan v central bureau of investigation reported in 2023 1 scc 329 state of m p v harishankar"
+    },
+    {
+      "source_case_id": "Ngo_Alliance_For_Governance_And_Renewal_vs_High_Court_On_Its_Own_Motion_And_7_Ors_on_8_May_2026",
+      "source_case_name": "Ngo Alliance For Governance And Renewal vs High Court On Its Own Motion And 7 Ors",
+      "target_case_id": "Kolkata_Municipal_Corporation_vs_Bimal_Kumar_Shah_on_16_May_2024",
+      "target_case_name": "Kolkata Municipal Corporation vs Bimal Kumar Shah",
+      "relationship": "REFERS_TO",
+      "classification": "strong_candidate",
+      "strong_signal_count": 5,
+      "weak_signal_count": 0,
+      "context": "rty fourth amendment act 1978 however a modified version was inserted and the right to property continues to be constitutionally protected under article 300a although no longer in the nature of a fundamental right the provision has been characterised as a p v rane smwp1 2024 doc constitutional and human right 264 a two judge bench of this court in kolkata municipal corporation v bimal kumar shah speaking through justice ps narasimha had occasion to discuss the scope and content of article 300 a and the constitutional vision in relation to private property this court held that merely providing compensation does not justify compulsory acquisition by the state unless procedural safeguards are followed it was observed that a post colonial rea"
+    },
+    {
+      "source_case_id": "Nivarahakk_Suraksha_Samiti_vs_High_Court_On_Its_Own_Motion_And_7_Ors_on_8_May_2026",
+      "source_case_name": "Nivarahakk Suraksha Samiti vs High Court On Its Own Motion And 7 Ors",
+      "target_case_id": "Kolkata_Municipal_Corporation_vs_Bimal_Kumar_Shah_on_16_May_2024",
+      "target_case_name": "Kolkata Municipal Corporation vs Bimal Kumar Shah",
+      "relationship": "REFERS_TO",
+      "classification": "strong_candidate",
+      "strong_signal_count": 5,
+      "weak_signal_count": 0,
+      "context": "rty fourth amendment act 1978 however a modified version was inserted and the right to property continues to be constitutionally protected under article 300a although no longer in the nature of a fundamental right the provision has been characterised as a p v rane smwp1 2024 doc constitutional and human right 264 a two judge bench of this court in kolkata municipal corporation v bimal kumar shah speaking through justice ps narasimha had occasion to discuss the scope and content of article 300 a and the constitutional vision in relation to private property this court held that merely providing compensation does not justify compulsory acquisition by the state unless procedural safeguards are followed it was observed that a post colonial rea"
+    },
+    {
+      "source_case_id": "Sit_Cid_Bengaluru_vs_Prajwal_Revanna_on_2_August_2025",
+      "source_case_name": "Sit Cid Bengaluru vs Prajwal Revanna",
+      "target_case_id": "Vibhor_Garg_vs_Neha_on_14_July_2025",
+      "target_case_name": "Vibhor Garg vs Neha",
+      "relationship": "RELIES_ON",
+      "classification": "strong_candidate",
+      "strong_signal_count": 5,
+      "weak_signal_count": 0,
+      "context": "tion which was secured without the knowledge of the person who had stored the same can be considered as valid evidence in other words whether the information secured illegally can be considered as valid evidence under the eyes of law in this regard the court has relied upon the judgment of the hon ble apex court reported in 2025 scc online sc 1421 vibhor garg v neha wherein the hon ble apex court has held validity of secretly obtained evidence 9 2 this court has often had the occasion to deal with the issue of using illegal and immoral ways to procure evidence against a person without the knowledge of the person it is often alleged by accused persons that the investigation authorities did not follow legal met"
+    },
+    {
+      "source_case_id": "State_Of_U_P_vs_M_S_Lalta_Prasad_Vaish_And_Sons_on_23_October_2024",
+      "source_case_name": "State Of U P vs M S Lalta Prasad Vaish And Sons",
+      "target_case_id": "Mineral_Area_Development_Authority_Etc_vs_M_S_Steel_Authority_Of_India_on_25_July_2024",
+      "target_case_name": "Mineral Area Development Authority Etc vs M S Steel Authority Of India",
+      "relationship": "CITES",
+      "classification": "strong_candidate",
+      "strong_signal_count": 2,
+      "weak_signal_count": 0,
+      "context": "cheduled industry therefore the said products of fermentation industries which have been taken control of by the union by virtue of insertion of the section 18g of the idra would come within the scope and ambit of the said section 16 11 in this context by way of analogy it would be of relevance to refer to my dissenting opinion dated 25 07 2024 in mineral area development authority etc v m s steel authority of india others state of u p v m s lalta prasad vaish and sons on 23 october 2024 civil appeal nos 4056 4064 of 1999 mineral area development authority wherein the interpretation of entry 50 list ii vis vis entry 54 list i came up for consideration and it was observed by me that even a taxation entry i e entry 50 list ii was subject to the limitation impos"
+    },
+    {
+      "source_case_id": "The_State_Of_Tamil_Nadu_vs_Junglee_Games_India_Private_Limited_on_27_May_2026",
+      "source_case_name": "The State Of Tamil Nadu vs Junglee Games India Private Limited",
+      "target_case_id": "Anjum_Kadari_vs_Union_Of_India_on_5_November_2024",
+      "target_case_name": "Anjum Kadari vs Union Of India",
+      "relationship": "ENDORSES",
+      "classification": "strong_candidate",
+      "strong_signal_count": 3,
+      "weak_signal_count": 0,
+      "context": " asserted to be contrary to this court s jurisprudence and thus per incuriam 47 he argued that the entries in the seventh schedule must receive a broad and purposive interpretation and there is a presumption of constitutional validity the restrictive construction adopted by the high court for entry 34 violates the interpretive approach endorsed in anjum kadari v union of india reported in 2025 5 scc 53 state of u p v lalta prasad vaish reported in 2024 scc online sc 3029 2024 insc 812 and asst director of inspection investigation v a b shanthi reported in 2002 6 scc 259 respectively all of which underscore a wide reading of entries and strong presumptions in favour of legislation 48 the semantic argument that the conjun"
+    },
+    {
+      "source_case_id": "Ved_Kumari_Through_Lr_Kewal_Kishan_Sethi_vs_E_S_Vasudevan_on_9_March_2026",
+      "source_case_name": "Ved Kumari Through Lr Kewal Kishan Sethi vs E S Vasudevan",
+      "target_case_id": "Suhas_Chakma_vs_Union_Of_India_on_23_October_2024",
+      "target_case_name": "Suhas Chakma vs Union Of India",
+      "relationship": "COMPLIES_WITH",
+      "classification": "strong_candidate",
+      "strong_signal_count": 1,
+      "weak_signal_count": 0,
+      "context": " the same would not come to the aid of the parties in the manner as proposed as the facts and circumstances of the present case are clearly distinguishable 45 trial court record be sent back along with a copy of this judgment copy of this judgment be also given dasti to the accused further compliance of the decision of the hon ble supreme court in suhas chakma v union of india 2024 16 scc 1 has been carried out 46 appeal and revision files be consigned to record room after due compliance abhishek abhishek go goyal date 2026 17 08 01 0 announced in the open court abhishek goyal ved kumari through lr kewal kishan sethi v e s vasudevan on 9 march 2026 on 09 03 2026 asj 03 central district tis hazari courts delhi 1 radhey s"
+    },
+    {
+      "source_case_id": "Zameer_Ahmed_Latifur_Rehman_Shaikh_vs_The_State_Of_Maharashtra_on_21_July_2025",
+      "source_case_name": "Zameer Ahmed Latifur Rehman Shaikh vs The State Of Maharashtra",
+      "target_case_id": "Fuleshwar_Gope_vs_Union_Of_India_on_23_September_2024",
+      "target_case_name": "Fuleshwar Gope vs Union Of India",
+      "relationship": "CONSIDERS",
+      "classification": "strong_candidate",
+      "strong_signal_count": 5,
+      "weak_signal_count": 0,
+      "context": "f mofussil in the circumstances we reject the submission of the defence and it is held that shri jaiswal had authority to grant prior approval to invoke mcoca in the present matter 688 before discussing points no 2 to 6 it will be beneficial to reiterate the law as regards prior approval we have considered hosts of authorities on this point namely fuleshwar gope v union of india reported in 2024 scc online 2610 central bureau of investigation v ashok kumar agrawal reported in 2014 14 scc 295 prakash singh badal v state of punjab reported in 2007 1 scc 1 state of karnataka v s subbegowda reported in 2023 scc online sc 911 vijay rajmohan v central bureau of investigation reported in 2023 1 scc 329 state of m p v harishankar"
+    }
+  ],
+  "invalid_edges": []
+}

@@ -1,0 +1,11 @@
+{
+  "query_id": "Q028",
+  "question": "What factors should courts consider when deciding bail under a special criminal statute?",
+  "generation_type": "BASE_LLM",
+  "provider": "gemini",
+  "retrieval_used": false,
+  "external_legal_context_used": false,
+  "reference_answer_used": false,
+  "answer": "User Safety: safe",
+  "generated_at": "2026-09-14T11:41:52.407272"
+}

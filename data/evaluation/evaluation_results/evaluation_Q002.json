@@ -1,0 +1,24 @@
+{
+  "query_id": "Q002",
+  "question": "What principles govern the exercise of discretion when deciding an application for anticipatory bail?",
+  "base_source_file": "data\\evaluation\\generation_outputs\\base_answer_q002_20260914_005907.json",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_q002_20260914_010008.json",
+  "base_provider": "gemini",
+  "rag_provider": "gemini",
+  "evaluation_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T13:21:57.268178",
+  "base": {
+    "relevance": 5,
+    "reference_consistency": 5,
+    "completeness": 5,
+    "overall": 5.0
+  },
+  "rag": {
+    "relevance": 5,
+    "reference_consistency": 4,
+    "completeness": 5,
+    "groundedness": 5,
+    "overall": 4.75
+  },
+  "brief_reason": "Both answers address the discretion in anticipatory bail, but the Base answer adds many extra, broader factors not mentioned in the reference, while the RAG answer stays close to the core principles from the reference and is fully supported by the supplied judicial evidence."
+}

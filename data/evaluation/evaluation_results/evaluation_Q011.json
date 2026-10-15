@@ -1,0 +1,24 @@
+{
+  "query_id": "Q011",
+  "question": "What principles govern police custody and judicial remand of an accused?",
+  "base_source_file": "data\\evaluation\\generation_outputs\\base_answer_Q011_20260914_112507.json",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q011_20260914_120838.json",
+  "base_provider": "gemini",
+  "rag_provider": "provider_manager",
+  "evaluation_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T13:25:19.986681",
+  "base": {
+    "relevance": 5,
+    "reference_consistency": 5,
+    "completeness": 5,
+    "overall": 5.0
+  },
+  "rag": {
+    "relevance": 5,
+    "reference_consistency": 5,
+    "completeness": 5,
+    "groundedness": 1,
+    "overall": 4.0
+  },
+  "brief_reason": "Both answers address the question and match the reference, but the RAG answer lacks supporting evidence from the provided retrieval, resulting in low groundedness."
+}

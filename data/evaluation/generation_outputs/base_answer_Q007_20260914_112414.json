@@ -1,0 +1,11 @@
+{
+  "query_id": "Q007",
+  "question": "Can anticipatory bail continue for an indefinite period?",
+  "generation_type": "BASE_LLM",
+  "provider": "gemini",
+  "retrieval_used": false,
+  "external_legal_context_used": false,
+  "reference_answer_used": false,
+  "answer": "**Yes, anticipatory bail can continue without a fixed time limit (i.e., until the conclusion of the trial), unless the court granting it specifies a limitation based on the particular facts of the case.**\n\n### Legal Position in India\n\n1. **General Rule (No Automatic Expiration):** \n   Under Indian criminal law (Section 438 of the Code of Criminal Procedure, 1973 / Section 482 of the Bharatiya Nagarik Suraksha Sanhita, 2023), anticipatory bail does not automatically expire upon the filing of a charge sheet or the framing of charges. Ordinarily, once granted, it continues to operate until the end of the trial.\n\n2. **Supreme Court Precedent:** \n   This issue was authoritatively settled by a Constitution Bench of the Supreme Court of India in *Sushila Aggarwal v. State (NCT of Delhi)* (2020). The Court held that:\n   * Anticipatory bail should not routinely be limited to a fixed duration or restricted until the filing of the charge sheet.\n   * The protection granted under anticipatory bail can continue until the final conclusion of the trial.\n\n3. **Court’s Discretion to Limit Duration:** \n   While the general rule allows anticipatory bail to continue indefinitely through the trial, the granting court retains the discretion to limit its duration or impose specific time-bound conditions if special or unusual circumstances warrant it.\n\n4. **Cancellation or Modification:** \n   Even when anticipatory bail is granted without a time limit, it remains subject to cancellation or modification if the accused violates bail conditions, tampers with evidence, influences witnesses, or if new compelling circumstances arise.\n\n***\n\n*Disclaimer: This response is provided for academic and educational purposes only and does not constitute personalized legal advice.*",
+  "generated_at": "2026-09-14T11:24:14.052547"
+}

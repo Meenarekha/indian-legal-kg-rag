@@ -1,0 +1,14 @@
+{
+  "query_id": "Q022",
+  "question": "When can inconsistencies in witness statements affect the prosecution case?",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q022_20260914_121214.json",
+  "evidence_records": 0,
+  "total_context_characters": null,
+  "groundedness": 1.0,
+  "supported_claims": 0,
+  "unsupported_claims": 6,
+  "reason": "No judicial evidence was retrieved, so none of the answer's substantive claims can be verified against the supplied sources.",
+  "evaluator_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T13:56:59.660106",
+  "method": "Claim-support evaluation against actual retrieved judicial evidence records."
+}

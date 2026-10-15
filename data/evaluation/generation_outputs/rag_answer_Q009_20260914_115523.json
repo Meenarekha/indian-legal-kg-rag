@@ -1,0 +1,22 @@
+{
+  "query_id": "Q009",
+  "question": "What safeguards must be followed during the arrest of an accused?",
+  "generation_type": "RAG",
+  "provider": "provider_manager",
+  "primary_provider": "gemini",
+  "fallback_enabled": true,
+  "retrieval_used": true,
+  "reference_answer_used": false,
+  "retrieval_configuration": {
+    "retrieval_pipeline": "BM25 + Dense FAISS + RRF + case aggregation + relevance filtering + authority-aware reranking",
+    "max_cases": 5,
+    "supporting_chunks_per_case": 3,
+    "max_context_characters": 30000
+  },
+  "cases_considered": 5,
+  "evidence_records": 11,
+  "context_characters": 14187,
+  "context_truncated": false,
+  "answer": "Based on the retrieved evidence, the following",
+  "generated_at": "2026-09-14T11:55:23.774504"
+}

@@ -1,0 +1,24 @@
+{
+  "query_id": "Q010",
+  "question": "What are the legal requirements governing arrest without a warrant?",
+  "base_source_file": "data\\evaluation\\generation_outputs\\base_answer_Q010_20260914_112454.json",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q010_20260914_120830.json",
+  "base_provider": "gemini",
+  "rag_provider": "provider_manager",
+  "evaluation_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T13:24:53.606783",
+  "base": {
+    "relevance": 5,
+    "reference_consistency": 5,
+    "completeness": 5,
+    "overall": 5.0
+  },
+  "rag": {
+    "relevance": 5,
+    "reference_consistency": 5,
+    "completeness": 4,
+    "groundedness": 1,
+    "overall": 3.75
+  },
+  "brief_reason": "The Base answer fully addresses the question, aligns with the reference and includes all key points, while the RAG answer, though relevant and consistent, omits the explicit recording requirement and lacks any supporting judicial citations."
+}

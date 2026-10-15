@@ -1,0 +1,22 @@
+{
+  "query_id": "Q030",
+  "question": "How should courts balance personal liberty with the interests of criminal investigation?",
+  "generation_type": "RAG",
+  "provider": "provider_manager",
+  "primary_provider": "gemini",
+  "fallback_enabled": true,
+  "retrieval_used": true,
+  "reference_answer_used": false,
+  "retrieval_configuration": {
+    "retrieval_pipeline": "BM25 + Dense FAISS + RRF + case aggregation + relevance filtering + authority-aware reranking",
+    "max_cases": 5,
+    "supporting_chunks_per_case": 3,
+    "max_context_characters": 30000
+  },
+  "cases_considered": 5,
+  "evidence_records": 11,
+  "context_characters": 16896,
+  "context_truncated": false,
+  "answer": "Based on the retrieved legal evidence, courts balance personal liberty with the interests of criminal investigation by applying the following principles and factors:\n\n### 1. Judicious Exercise of Discretion Without Rigid Generalisations\n* **Case-by-Case Assessment:** Courts must avoid generalisations that strip away judicial discretion when dealing with new facts (*Dhanraj Aswani v. Amar S. Mulchandani* citing *Gurbaksh Singh Sibbia*).\n* **Care and Caution:** Judicial discretion regarding liberty (such as granting anticipatory bail under Section 438 CrPC) must be exercised with due care, caution, awareness of the context, and consideration of foreseeable consequences (*Dhanraj Aswani v. Amar S. Mulchandani*).\n\n### 2. Specific Balancing Factors for Liberty and Bail\nWhen evaluating personal liberty under Article 21 of the Constitution against societal and investigative interests, courts must weigh (*Zeba Khan v. State of U.P.* citing *Brijmani Devi* and *Gudikanti Narasimhulu*):\n* The nature and seriousness of the charge/accusation;\n* Supporting material and the nature of evidence;\n* The severity of punishment to which the accused may be liable upon conviction;\n* The criminal antecedents of the accused;\n* The broader societal impact.\n\n### 3. Protection Against Harassment and Preserving Defense Rights\n* **Presumption of Innocence:** A presumably innocent person is entitled to freedom to effectively look after their case and establish innocence (*Dhanraj Aswani v. Amar S. Mulchandani*).\n* **Prevention of Humiliation:** Measures such as anticipatory bail (Section 438 CrPC) exist to protect respectable individuals from undue harassment, humiliation, and social ridicule caused during police investigations (*Dhanraj Aswani v. Amar S. Mulchandani*).\n\n### 4. Independent Co-existence of Statutory Rights\n* The right of the investigating agency to investigate/interrogate (e.g., seeking police remand) and the right of the accused to seek protection of their liberty (e.g., anticipatory or regular bail) are not mutually exclusive and operate at their respective appropriate times (*Dhanraj Aswani v. Amar S. Mulchandani*).\n* Depriving an accused of the right to seek liberty merely because they are in custody in another case militates against Article 21 and Section 438 of the CrPC (*Dhanraj Aswani v. Amar S. Mulchandani*).\n\n### 5. Mandate of Prompt Investigation and Speedy Trial\n* **Fair, Just, and Reasonable Procedure:** Under Article 21, any procedure depriving personal liberty must be fair, just, and reasonable (*Kailash Chandra Kapri v. State of U.P.* citing *P. Ramachandra Rao*).\n* **Reasonable Despatch:** While social interest demands punishing the guilty and exonerating the innocent, determination of guilt must be achieved through prompt investigation and speedy trial (*Kailash Chandra Kapri v. State of U.P.* citing *Abdul Rehman Antulay*). Unreasonable delay causes severe mental agony, expense, and impairs the accused’s capability to defend themselves.\n\n### 6. Ensuring Fair Trial and Public Confidence\n* Fair trial entails balancing the interests of the accused, the victim, and society as a whole (*Sovaran Singh Prajapati v. State of U.P.* citing *J. Jayalalithaa v. State of Karnataka*). \n* Courts must maintain public confidence in the administration of justice and uphold judicial fairness by ensuring investigations and trials remain free, unbiased, and fair (*M/S Shri Sendhuragro And Oil Industries v. Kotak Mahindra Bank Ltd.*).",
+  "generated_at": "2026-09-14T12:30:42.134127"
+}

@@ -1,0 +1,16 @@
+{
+  "query_id": "Q010",
+  "question": "What are the legal requirements governing arrest without a warrant?",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q010_20260914_120830.json",
+  "cases_considered": 4,
+  "evidence_records": 0,
+  "context_characters": 14177,
+  "context_truncated": false,
+  "groundedness": 1.0,
+  "supported_claims": 0,
+  "unsupported_claims": 1,
+  "reason": "No judicial evidence was retrieved, so none of the answer's claims are supported by the supplied evidence.",
+  "evaluator_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T14:04:50.084505",
+  "method": "Claim-support evaluation against the actual retrieved judicial evidence."
+}

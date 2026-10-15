@@ -1,0 +1,22 @@
+{
+  "query_id": "Q018",
+  "question": "Should a High Court conduct a detailed evidentiary inquiry while deciding a quashing petition?",
+  "generation_type": "RAG",
+  "provider": "provider_manager",
+  "primary_provider": "gemini",
+  "fallback_enabled": true,
+  "retrieval_used": true,
+  "reference_answer_used": false,
+  "retrieval_configuration": {
+    "retrieval_pipeline": "BM25 + Dense FAISS + RRF + case aggregation + relevance filtering + authority-aware reranking",
+    "max_cases": 5,
+    "supporting_chunks_per_case": 3,
+    "max_context_characters": 30000
+  },
+  "cases_considered": 5,
+  "evidence_records": 9,
+  "context_characters": 13165,
+  "context_truncated": false,
+  "answer": "No—not ordinarily.\n\nIn **Just Rights For Children Alliance v. S. Harish**, the Supreme Court held that, while deciding a quashing petition, the High Court must apply its mind to the FIR, charge-sheet and record to determine whether the allegations disclose an offence and whether continuing the proceedings amounts to an abuse of process. However, once the foundational facts are **prima facie** established, it is improper to conduct an **intricate evidentiary inquiry** into the facts or determine matters such as the accused’s mental element. Those issues should ordinarily be left to the trial court.\n\nThe High Court may consider the accused’s defence only in exceptional circumstances—for example, where the allegations themselves appear completely false and bogus. Even then, it must act with restraint. Quashing at a preliminary stage is also potentially grave because it can deprive the trial court of the opportunity to evaluate evidence.",
+  "generated_at": "2026-09-14T12:11:15.036559"
+}

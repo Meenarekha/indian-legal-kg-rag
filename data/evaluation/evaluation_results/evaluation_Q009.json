@@ -1,0 +1,24 @@
+{
+  "query_id": "Q009",
+  "question": "What safeguards must be followed during the arrest of an accused?",
+  "base_source_file": "data\\evaluation\\generation_outputs\\base_answer_Q009_20260914_112440.json",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q009_20260914_115523.json",
+  "base_provider": "gemini",
+  "rag_provider": "provider_manager",
+  "evaluation_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T13:24:29.656878",
+  "base": {
+    "relevance": 5,
+    "reference_consistency": 5,
+    "completeness": 5,
+    "overall": 5.0
+  },
+  "rag": {
+    "relevance": 1,
+    "reference_consistency": 1,
+    "completeness": 1,
+    "groundedness": 1,
+    "overall": 1.0
+  },
+  "brief_reason": "The Base answer fully addresses the safeguards listed in the reference, while the RAG answer provides no substantive content."
+}

@@ -1,0 +1,14 @@
+{
+  "query_id": "Q026",
+  "question": "What conditions apply to bail in cases involving offences under the NDPS Act?",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q026_20260914_122747.json",
+  "evidence_records": 0,
+  "total_context_characters": null,
+  "groundedness": 1.0,
+  "supported_claims": 0,
+  "unsupported_claims": 7,
+  "reason": "No judicial evidence was retrieved, so none of the answer's claims can be verified as supported.",
+  "evaluator_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T13:57:49.297502",
+  "method": "Claim-support evaluation against actual retrieved judicial evidence records."
+}

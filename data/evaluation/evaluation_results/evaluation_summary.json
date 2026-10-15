@@ -1,0 +1,34 @@
+{
+  "number_of_questions": 30,
+  "base_llm": {
+    "relevance": 4.567,
+    "reference_consistency": 4.533,
+    "completeness": 4.567,
+    "overall": 4.556
+  },
+  "rag": {
+    "relevance": 4.533,
+    "reference_consistency": 4.5,
+    "completeness": 4.233,
+    "groundedness": 1.467,
+    "overall": 3.683
+  },
+  "difference_rag_minus_base": {
+    "overall": -0.873,
+    "relevance": -0.034,
+    "reference_consistency": -0.033,
+    "completeness": -0.334
+  },
+  "improvement_percentage": {
+    "overall_percent": -19.16,
+    "relevance_percent": -0.74,
+    "reference_consistency_percent": -0.73,
+    "completeness_percent": -7.31
+  },
+  "evaluation_method": "Automated LLM-based evaluation",
+  "evaluator_model": "openai/gpt-oss-120b",
+  "legal_expert_validation": false,
+  "reference_answers_used_during_generation": false,
+  "retrieval_used_during_rag_generation": true,
+  "note": "Scores measure alignment with the prepared evaluation references and support from retrieved judicial evidence. They do not constitute professional legal validation or certification."
+}

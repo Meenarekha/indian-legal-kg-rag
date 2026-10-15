@@ -1,0 +1,22 @@
+{
+  "query_id": "Q008",
+  "question": "What circumstances may justify cancellation or denial of bail?",
+  "generation_type": "RAG",
+  "provider": "provider_manager",
+  "primary_provider": "gemini",
+  "fallback_enabled": true,
+  "retrieval_used": true,
+  "reference_answer_used": false,
+  "retrieval_configuration": {
+    "retrieval_pipeline": "BM25 + Dense FAISS + RRF + case aggregation + relevance filtering + authority-aware reranking",
+    "max_cases": 5,
+    "supporting_chunks_per_case": 3,
+    "max_context_characters": 30000
+  },
+  "cases_considered": 5,
+  "evidence_records": 9,
+  "context_characters": 12622,
+  "context_truncated": false,
+  "answer": "Cancellation or denial of bail may be justified in the following circumstances:\n\n### Cancellation of bail\n\nUnder **Zeba Khan v. State of U.P.**, Supreme Court, cancellation is not mechanical. There must generally be **cogent and overwhelming supervening circumstances**, such as:\n\n- Misuse of liberty granted under bail;\n- Tampering with evidence;\n- Intimidating or influencing witnesses;\n- A likelihood of absconding; or\n- Violation of bail conditions.\n\nCancellation should also be considered where the original bail order was **perverse, illegal, or unjustified**, for example because it relied on irrelevant considerations or ignored relevant material. In such cases, interference need not await post-bail misconduct.\n\n### Denial of bail\n\nIn **Sarla Gupta v. Directorate of Enforcement**, Supreme Court, concerning the stringent requirements of **Section 45(1)(ii) of the PMLA**, the accused bears the burden of satisfying the Special Court that:\n\n- There are reasonable grounds for believing that the accused is not guilty; and\n- The accused is not likely to commit another offence while on bail.\n\nFailure to satisfy these requirements may justify refusal of bail. The Court also emphasized that bail is not a punishment and that “bail is the rule and jail the exception.” Mere passage of time in custody does not create an absolute entitlement to bail. Conversely, a merely uncorroborated apprehension of witness interference is insufficient to deny bail where conditions can adequately address the concern.\n\nThe retrieved evidence identifies these principal grounds but does not establish an exhaustive list applicable to every statute or case.",
+  "generated_at": "2026-09-14T11:55:13.870909"
+}

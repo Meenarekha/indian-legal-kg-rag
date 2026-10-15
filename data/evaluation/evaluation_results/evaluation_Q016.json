@@ -1,0 +1,24 @@
+{
+  "query_id": "Q016",
+  "question": "What are the limitations on the High Court's power to quash criminal proceedings?",
+  "base_source_file": "data\\evaluation\\generation_outputs\\base_answer_Q016_20260914_112607.json",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q016_20260914_121100.json",
+  "base_provider": "gemini",
+  "rag_provider": "provider_manager",
+  "evaluation_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T13:29:21.099074",
+  "base": {
+    "relevance": 5.0,
+    "reference_consistency": 5.0,
+    "completeness": 5.0,
+    "overall": 5.0
+  },
+  "rag": {
+    "relevance": 5.0,
+    "reference_consistency": 5.0,
+    "completeness": 5.0,
+    "groundedness": 1.0,
+    "overall": 4.0
+  },
+  "brief_reason": "Both answers address the limitations, but the RAG answer provides no supporting judicial citations, resulting in low groundedness."
+}

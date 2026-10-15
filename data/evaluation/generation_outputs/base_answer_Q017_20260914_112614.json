@@ -1,0 +1,11 @@
+{
+  "query_id": "Q017",
+  "question": "Can criminal proceedings be quashed when the allegations do not disclose an offence?",
+  "generation_type": "BASE_LLM",
+  "provider": "gemini",
+  "retrieval_used": false,
+  "external_legal_context_used": false,
+  "reference_answer_used": false,
+  "answer": "**Yes, criminal proceedings can be quashed when the allegations do not disclose an offence.**\n\n### Legal Basis and Principle\n\nUnder Indian criminal jurisprudence, High Courts possess inherent powers to quash a First Information Report (FIR), complaint, or ongoing criminal proceedings to prevent abuse of the process of any court and to secure the ends of justice. \n\n* **Statutory Provision:** This power is exercised by the High Court under **Section 482 of the Code of Criminal Procedure, 1973 (CrPC)** (now corresponding to **Section 528 of the Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS)**).\n* **Core Test:** The established legal standard is that if the allegations made in the FIR, complaint, or charge-sheet—even if taken at their face value and accepted in their entirety—do not prima facie disclose or constitute any criminal offence against the accused, continuing the criminal proceedings would amount to an abuse of the judicial process.\n\n### Precedent\n\nThe Supreme Court of India firmly settled this principle in the landmark judgment ***State of Haryana v. Bhajan Lal (1992)***. The Court laid down specific categories of cases where the High Court can exercise its inherent powers to quash criminal proceedings, explicitly including cases where:\n> *The allegations made in the First Information Report or the complaint, even if they are taken at their face value and accepted in their entirety, do not prima facie constitute any offence or make out a case against the accused.*\n\n### Summary\nIf the factual allegations, even if assumed to be completely true, fail to satisfy the essential ingredients of the alleged offence defined under the law, the High Court is fully empowered to quash the criminal proceedings.",
+  "generated_at": "2026-09-14T11:26:14.471472"
+}

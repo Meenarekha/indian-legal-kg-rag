@@ -1,0 +1,30 @@
+[
+  {
+    "query_id": "Q004",
+    "question": "What factors should courts consider while deciding whether to grant bail?",
+    "stage": "rag_generation",
+    "error": "RAG answer generation failed.",
+    "timestamp": "2026-09-14T01:03:42.445034"
+  },
+  {
+    "query_id": "Q005",
+    "question": "What is the relationship between personal liberty and the grant of bail?",
+    "stage": "base_generation",
+    "error": "Base generation failed.",
+    "timestamp": "2026-09-14T01:04:57.202232"
+  },
+  {
+    "query_id": "Q005",
+    "question": "What is the relationship between personal liberty and the grant of bail?",
+    "stage": "rag_generation",
+    "error": "RAG answer generation failed.",
+    "timestamp": "2026-09-14T01:06:54.656610"
+  },
+  {
+    "query_id": "Q006",
+    "question": "What limitations can be imposed while granting anticipatory bail?",
+    "stage": "base_generation",
+    "error": "Base generation failed.",
+    "timestamp": "2026-09-14T01:08:07.732635"
+  }
+]

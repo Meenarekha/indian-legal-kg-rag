@@ -1,0 +1,16 @@
+{
+  "query_id": "Q008",
+  "question": "What circumstances may justify cancellation or denial of bail?",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q008_20260914_115513.json",
+  "cases_considered": 5,
+  "evidence_records": 0,
+  "context_characters": 12622,
+  "context_truncated": false,
+  "groundedness": 1.0,
+  "supported_claims": 0,
+  "unsupported_claims": 1,
+  "reason": "No judicial evidence was retrieved; therefore none of the answer's claims are supported.",
+  "evaluator_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T14:04:31.140164",
+  "method": "Claim-support evaluation against the actual retrieved judicial evidence."
+}

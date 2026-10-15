@@ -1,0 +1,16 @@
+{
+  "query_id": "Q019",
+  "question": "What principles govern the evidentiary value of statements recorded during criminal investigation?",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q019_20260914_121122.json",
+  "cases_considered": 5,
+  "evidence_records": 0,
+  "context_characters": 9571,
+  "context_truncated": false,
+  "groundedness": 1.0,
+  "supported_claims": 0,
+  "unsupported_claims": 5,
+  "reason": "No judicial passages were retrieved; consequently none of the answer's substantive claims are supported by evidence.",
+  "evaluator_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T14:06:26.649589",
+  "method": "Claim-support evaluation against the actual retrieved judicial evidence."
+}

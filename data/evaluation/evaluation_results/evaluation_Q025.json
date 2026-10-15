@@ -1,0 +1,24 @@
+{
+  "query_id": "Q025",
+  "question": "What principles govern the burden on an accused seeking bail under a special statute?",
+  "base_source_file": "data\\evaluation\\generation_outputs\\base_answer_Q025_20260914_112741.json",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q025_20260914_122642.json",
+  "base_provider": "gemini",
+  "rag_provider": "provider_manager",
+  "evaluation_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T13:31:51.920813",
+  "base": {
+    "relevance": 5.0,
+    "reference_consistency": 5.0,
+    "completeness": 5.0,
+    "overall": 5.0
+  },
+  "rag": {
+    "relevance": 5.0,
+    "reference_consistency": 5.0,
+    "completeness": 5.0,
+    "groundedness": 1.0,
+    "overall": 4.0
+  },
+  "brief_reason": "Both answers address the question and align with the reference, but the RAG answer lacks supporting citations because no retrieved judicial evidence was provided."
+}

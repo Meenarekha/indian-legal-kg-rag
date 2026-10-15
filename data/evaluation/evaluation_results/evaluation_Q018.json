@@ -1,0 +1,24 @@
+{
+  "query_id": "Q018",
+  "question": "Should a High Court conduct a detailed evidentiary inquiry while deciding a quashing petition?",
+  "base_source_file": "data\\evaluation\\generation_outputs\\base_answer_Q018_20260914_112622.json",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q018_20260914_121115.json",
+  "base_provider": "gemini",
+  "rag_provider": "provider_manager",
+  "evaluation_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T13:29:52.576931",
+  "base": {
+    "relevance": 5.0,
+    "reference_consistency": 5.0,
+    "completeness": 5.0,
+    "overall": 5.0
+  },
+  "rag": {
+    "relevance": 5.0,
+    "reference_consistency": 5.0,
+    "completeness": 5.0,
+    "groundedness": 1.0,
+    "overall": 4.0
+  },
+  "brief_reason": "Both answers correctly state that the High Court should not conduct a detailed evidentiary inquiry, but the RAG answer cites a case without any provided evidence, resulting in low groundedness."
+}

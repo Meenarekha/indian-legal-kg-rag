@@ -1,0 +1,33 @@
+{
+  "rag_case_ids": [
+    "Amazon_Com_Nv_Investment_Holdings_Llc_vs_Competition_Commission_Of_India_on_27_May_2026",
+    "Dhanraj_Aswani_vs_Amar_S_Mulchandani_on_9_September_2024",
+    "Directorate_General_Of_Goods_And_vs_Gameskraft_Technologies_Private_on_27_May_2026",
+    "The_Deputy_Commissioner_And_Special_vs_M_S_S_V_Global_Mill_Limited_on_9_February_2026",
+    "Yerikala_Sunkalamma_vs_The_State_Of_Andhra_Pradesh_And_Ors_on_24_March_2025"
+  ],
+  "kg_case_ids": [
+    "Dhanraj_Aswani_vs_Amar_S_Mulchandani_on_9_September_2024",
+    "section_section_438"
+  ],
+  "overlap": [
+    "Dhanraj_Aswani_vs_Amar_S_Mulchandani_on_9_September_2024"
+  ],
+  "rag_only": [
+    "Amazon_Com_Nv_Investment_Holdings_Llc_vs_Competition_Commission_Of_India_on_27_May_2026",
+    "Directorate_General_Of_Goods_And_vs_Gameskraft_Technologies_Private_on_27_May_2026",
+    "The_Deputy_Commissioner_And_Special_vs_M_S_S_V_Global_Mill_Limited_on_9_February_2026",
+    "Yerikala_Sunkalamma_vs_The_State_Of_Andhra_Pradesh_And_Ors_on_24_March_2025"
+  ],
+  "kg_only": [
+    "section_section_438"
+  ],
+  "union": [
+    "Amazon_Com_Nv_Investment_Holdings_Llc_vs_Competition_Commission_Of_India_on_27_May_2026",
+    "Dhanraj_Aswani_vs_Amar_S_Mulchandani_on_9_September_2024",
+    "Directorate_General_Of_Goods_And_vs_Gameskraft_Technologies_Private_on_27_May_2026",
+    "The_Deputy_Commissioner_And_Special_vs_M_S_S_V_Global_Mill_Limited_on_9_February_2026",
+    "Yerikala_Sunkalamma_vs_The_State_Of_Andhra_Pradesh_And_Ors_on_24_March_2025",
+    "section_section_438"
+  ]
+}

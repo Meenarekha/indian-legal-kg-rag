@@ -1,0 +1,24 @@
+{
+  "query_id": "Q003",
+  "question": "When can an accused seek protection from arrest before being taken into custody?",
+  "base_source_file": "data\\evaluation\\generation_outputs\\base_answer_q003_20260914_010031.json",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_q003_20260914_010116.json",
+  "base_provider": "gemini",
+  "rag_provider": "gemini",
+  "evaluation_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T13:22:30.828257",
+  "base": {
+    "relevance": 4,
+    "reference_consistency": 4,
+    "completeness": 4,
+    "overall": 4.0
+  },
+  "rag": {
+    "relevance": 5,
+    "reference_consistency": 5,
+    "completeness": 5,
+    "groundedness": 5,
+    "overall": 5.0
+  },
+  "brief_reason": "The Base answer adds unrelated bail mechanisms and is less focused, while the RAG answer directly mirrors the reference answer and is fully supported by the supplied judicial excerpts."
+}

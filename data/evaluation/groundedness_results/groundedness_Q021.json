@@ -1,0 +1,14 @@
+{
+  "query_id": "Q021",
+  "question": "What is the evidentiary value of a statement recorded under Section 164 CrPC?",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q021_20260914_121155.json",
+  "evidence_records": 0,
+  "total_context_characters": null,
+  "groundedness": 1.0,
+  "supported_claims": 0,
+  "unsupported_claims": 7,
+  "reason": "No judicial passages were retrieved; therefore none of the answer's claims can be verified against evidence.",
+  "evaluator_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T13:56:50.430679",
+  "method": "Claim-support evaluation against actual retrieved judicial evidence records."
+}

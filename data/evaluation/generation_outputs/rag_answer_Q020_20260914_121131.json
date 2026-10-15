@@ -1,0 +1,22 @@
+{
+  "query_id": "Q020",
+  "question": "What factors are considered when assessing the credibility of a witness?",
+  "generation_type": "RAG",
+  "provider": "provider_manager",
+  "primary_provider": "gemini",
+  "fallback_enabled": true,
+  "retrieval_used": true,
+  "reference_answer_used": false,
+  "retrieval_configuration": {
+    "retrieval_pipeline": "BM25 + Dense FAISS + RRF + case aggregation + relevance filtering + authority-aware reranking",
+    "max_cases": 5,
+    "supporting_chunks_per_case": 3,
+    "max_context_characters": 30000
+  },
+  "cases_considered": 5,
+  "evidence_records": 9,
+  "context_characters": 15366,
+  "context_truncated": false,
+  "answer": "Based on the retrieved legal evidence, the assessment of a witness's credibility involves evaluating several key factors, which are derived from judicial principles rather than a single statutory list. The courts consider the following:\n\n*   **General Approach to Testimony:** The evidence must be read as a whole to see if it has a \"ring of truth.\" The court then scrutinizes the testimony for deficiencies, drawbacks, and infirmities to see if they shake its general tenor and render it unworthy of belief. Minor variations or trivial discrepancies are not enough to reject a witness's evidence.\n\n*   **Witness's Demeanor and Competence:** The witness must be reliable and exhibit the demeanor of a competent witness. For a child witness, this means being capable of understanding the questions and giving rational answers, with no likelihood of being tutored.\n\n*   **Truthfulness and Consistency:** A credible witness, especially a \"sterling witness,\" must be truthful. Their statement should be consistent from the initial account to the final testimony in court, without any \"prevarication\" (evasion or contradiction). The version should be natural and consistent with the case of the prosecution.\n\n*   **Ability to Withstand Cross-Examination:** The witness should be able to withstand rigorous cross-examination without creating any doubt about the facts of the occurrence, the persons involved, or the sequence of events.\n\n*   **Corroboration with Supporting Material:** The witness's version should have a correlation with other supporting material, such as recoveries, weapons used, the manner of the offense, scientific evidence, expert opinions, and the testimony of other witnesses. It should match these materials in material particulars.\n\n*   **Classification of Reliability:** Witnesses are generally classified into three categories: (i) wholly reliable, (ii) wholly unreliable, and (iii) neither wholly reliable nor wholly unreliable. For the third category, the court must be circumspect and look for corroboration of material particulars.\n\n*   **Indicia of Tutoring:** The court examines whether the testimony is a \"parroted version,\" which suggests tutoring or a concerted effort to reproduce facts unnaturally, rather than a genuine account.\n\nThe available evidence is primarily focused on the assessment of witnesses in criminal trials. It does not provide specific factors for civil cases or other contexts outside of the principles discussed above.",
+  "generated_at": "2026-09-14T12:11:31.845501"
+}

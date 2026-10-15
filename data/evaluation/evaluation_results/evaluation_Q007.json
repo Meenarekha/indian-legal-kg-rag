@@ -1,0 +1,24 @@
+{
+  "query_id": "Q007",
+  "question": "Can anticipatory bail continue for an indefinite period?",
+  "base_source_file": "data\\evaluation\\generation_outputs\\base_answer_Q007_20260914_112414.json",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q007_20260914_115506.json",
+  "base_provider": "gemini",
+  "rag_provider": "provider_manager",
+  "evaluation_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T13:23:49.613329",
+  "base": {
+    "relevance": 5,
+    "reference_consistency": 5,
+    "completeness": 5,
+    "overall": 5.0
+  },
+  "rag": {
+    "relevance": 2,
+    "reference_consistency": 1,
+    "completeness": 1,
+    "groundedness": 3,
+    "overall": 1.75
+  },
+  "brief_reason": "The Base answer directly and accurately reflects the reference, while the RAG answer does not provide the correct legal position and relies on unsupported case citations."
+}

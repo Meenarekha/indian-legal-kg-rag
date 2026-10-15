@@ -1,0 +1,14 @@
+{
+  "query_id": "Q027",
+  "question": "How do statutory restrictions affect the grant of bail for serious offences?",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q027_20260914_122834.json",
+  "evidence_records": 0,
+  "total_context_characters": null,
+  "groundedness": 1.0,
+  "supported_claims": 0,
+  "unsupported_claims": 12,
+  "reason": "No judicial passages were retrieved; therefore none of the answer's claims can be verified against evidence.",
+  "evaluator_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T13:58:04.460439",
+  "method": "Claim-support evaluation against actual retrieved judicial evidence records."
+}

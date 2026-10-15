@@ -1,0 +1,16 @@
+{
+  "query_id": "Q002",
+  "question": "What principles govern the exercise of discretion when deciding an application for anticipatory bail?",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_q002_20260914_010008.json",
+  "cases_considered": null,
+  "evidence_records": 4,
+  "context_characters": 5022,
+  "context_truncated": null,
+  "groundedness": 5.0,
+  "supported_claims": 9,
+  "unsupported_claims": 0,
+  "reason": "All substantive claims in the answer are directly backed by the retrieved judicial passages, including pre‑condition, post‑arrest remedy, prohibition of inflexible guidelines, fairness test, statutory limits, exclusion under Section 438(4), special statutes, effect of custody in a different offence, and the materiality of compliance with conditions.",
+  "evaluator_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T14:03:30.844835",
+  "method": "Claim-support evaluation against the actual retrieved judicial evidence."
+}

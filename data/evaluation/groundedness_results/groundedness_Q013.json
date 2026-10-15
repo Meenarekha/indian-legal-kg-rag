@@ -1,0 +1,16 @@
+{
+  "query_id": "Q013",
+  "question": "Under what circumstances can an accused challenge the legality of an arrest?",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q013_20260914_120907.json",
+  "cases_considered": 5,
+  "evidence_records": 0,
+  "context_characters": 15458,
+  "context_truncated": false,
+  "groundedness": 1.0,
+  "supported_claims": 0,
+  "unsupported_claims": 5,
+  "reason": "No judicial evidence was retrieved, so none of the answer's claims are backed by the supplied evidence.",
+  "evaluator_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T14:05:24.793745",
+  "method": "Claim-support evaluation against the actual retrieved judicial evidence."
+}

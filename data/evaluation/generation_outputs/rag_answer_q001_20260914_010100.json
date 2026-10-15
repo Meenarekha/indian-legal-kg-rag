@@ -1,0 +1,15 @@
+{
+    "query_id": "Q001",
+    "question": "What are the conditions for granting anticipatory bail under Section 438 CrPC?",
+    "generation_type": "RAG",
+    "provider": "gemini",
+    "context_file": "data\\processed\\contexts\\context_what_are_the_conditions_for_granting_anticipatory_bail_under_20260914_010051.json",
+    "retrieval_summary": {
+        "cases_considered": 2,
+        "evidence_records": 4,
+        "context_characters": 5022,
+        "context_truncated": false
+    },
+    "answer": "Based on the provided judicial evidence, the conditions, pre-conditions, and statutory limits governing anticipatory bail under Section 438 of the Code of Criminal Procedure (CrPC) include the following:\n\n### 1. Essential Pre-condition to Apply\n* **Apprehension of Arrest:** Under Section 438 of the CrPC, the fundamental pre-condition for a person to apply for pre-arrest bail is having a *\"reason to believe that he may be arrested on accusation of having committed a non-bailable offence.\"* The apprehension of arrest is the only pre-condition for exercising this right (*Dhanraj Aswani vs. Amar S. Mulchandani*, citing *Sushila Aggarwal*).\n\n### 2. Requirement of Not Being Arrested for the Offence\n* **Pre-arrest Status:** An accused is entitled to apply for anticipatory bail only so long as they have not been arrested in relation to that specific offence. Once arrested in connection with that offence, the only remedy available is regular bail under Section 437 or Section 439 of the CrPC (*Dhanraj Aswani vs. Amar S. Mulchandani*, citing *Gurbaksh Singh Sibbia*).\n* **Custody in a Different Case:** Being in custody for a separate, different offence does not bar an accused from applying for anticipatory bail for another offence, provided they have not yet been arrested in connection with that subsequent offence (*Dhanraj Aswani vs. Amar S. Mulchandani*).\n\n### 3. Compliance with Conditions Imposed by the Court\n* **Ability to Comply:** The ability of an applicant to satisfy and comply with conditions that may be imposed under Section 438(2)(i) of the CrPC is noted as a material consideration for the grant of anticipatory bail (*Dhanraj Aswani vs. Amar S. Mulchandani*).\n\n### 4. Statutory Restrictions and Exclusions\n* **Section 438(4) CrPC Exclusion:** Anticipatory bail cannot be granted in cases involving arrest under Sections 376(3), 376AB, 376DA, or 376DB of the Indian Penal Code (IPC), as expressly excluded by Section 438(4) of the CrPC (*Dhanraj Aswani vs. Amar S. Mulchandani*, citing *Sushila Aggarwal*).\n* **Other Statutory Bars:** Restrictions prescribed in special statutes (such as the Act, 1989, etc.) also restrict the court's power to grant anticipatory bail (*Dhanraj Aswani vs. Amar S. Mulchandani*).\n\n---\n*Note: The supplied evidence does not set out an exhaustive list of the specific conditions that courts may attach under Section 438(2) of the CrPC (it only references Section 438(2)(i) generally), nor does it purport to represent the complete law of India.*",
+    "generated_at": "2026-09-14T01:01:00.755889"
+}

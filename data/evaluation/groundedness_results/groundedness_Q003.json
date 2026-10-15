@@ -1,0 +1,14 @@
+{
+  "query_id": "Q003",
+  "question": "When can an accused seek protection from arrest before being taken into custody?",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_q003_20260914_010116.json",
+  "evidence_records": 4,
+  "total_context_characters": 5022,
+  "groundedness": 5.0,
+  "supported_claims": 7,
+  "unsupported_claims": 0,
+  "reason": "All substantive statements in the answer are directly reflected in the retrieved Supreme Court passages, which discuss the timing of anticipatory bail, its unavailability after arrest, applicability while in custody for another offence, the pre‑condition of apprehension, and the statutory exclusions under Section 438(4) and other statutes.",
+  "evaluator_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T13:54:10.265381",
+  "method": "Claim-support evaluation against actual retrieved judicial evidence records."
+}

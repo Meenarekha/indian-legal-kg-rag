@@ -1,0 +1,16 @@
+{
+  "query_id": "Q020",
+  "question": "What factors are considered when assessing the credibility of a witness?",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q020_20260914_121131.json",
+  "cases_considered": 5,
+  "evidence_records": 0,
+  "context_characters": 15366,
+  "context_truncated": false,
+  "groundedness": 1.0,
+  "supported_claims": 0,
+  "unsupported_claims": 7,
+  "reason": "No judicial evidence was retrieved; therefore none of the answer's claims about credibility factors are supported.",
+  "evaluator_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T14:06:36.165823",
+  "method": "Claim-support evaluation against the actual retrieved judicial evidence."
+}

@@ -1,0 +1,22 @@
+{
+  "query_id": "Q023",
+  "question": "What conditions govern the grant of bail in offences under the Prevention of Money Laundering Act?",
+  "generation_type": "RAG",
+  "provider": "provider_manager",
+  "primary_provider": "gemini",
+  "fallback_enabled": true,
+  "retrieval_used": true,
+  "reference_answer_used": false,
+  "retrieval_configuration": {
+    "retrieval_pipeline": "BM25 + Dense FAISS + RRF + case aggregation + relevance filtering + authority-aware reranking",
+    "max_cases": 5,
+    "supporting_chunks_per_case": 3,
+    "max_context_characters": 30000
+  },
+  "cases_considered": 5,
+  "evidence_records": 12,
+  "context_characters": 18550,
+  "context_truncated": false,
+  "answer": "## Conditions Governing the Grant of Bail in Offences Under the Prevention of Money Laundering Act (PMLA)\n\n### I. Statutory Framework — Section 45(1) of PMLA\n\nSection 45(1) of the PMLA mandates that offences under the Act are **cognizable and non-bailable**. Notwithstanding anything in the Code of Criminal Procedure, 1973, no person accused of an offence under PMLA shall be released on bail or on his own bond unless the following **two conditions** are satisfied:\n\n- **(i)** The Public Prosecutor has been given an opportunity to oppose the application for such release; and\n- **(ii)** Where the Public Prosecutor opposes the application, the court is satisfied that there are **reasonable grounds for believing** that the accused is **not guilty** of the offence and is **not likely to commit any offence while on bail**.\n\n### II. Exceptions — Provisos Under Section 45(1)\n\nThe following categories of persons may be released on bail **if the Special Court so directs**, even without satisfying the above conditions:\n\n- A person **under the age of sixteen years**;\n- A **woman**;\n- A **sick or infirm** person;\n- A person accused either on his own or along with co-accused of **money-laundering a sum of less than one crore rupees**.\n\n### III. Judicial Interpretation — Conditions Are Restrictive, Not Absolute\n\nThe Supreme Court in **Prem Prakash v. Union of India (28 August 2024)**, citing **Vijay Madanlal Choudhary and Ors.**, held that while Section 45 restricts the right of the accused to bail, the conditions imposed **do not constitute absolute restraint** on the grant of bail. The discretion vests in the court and is **judicial, not arbitrary or irrational**.\n\nThe Court further affirmed, referencing **Manish Sisodia (II) v. Directorate of Enforcement**, that the governing principle even under PMLA remains: **\"Bail is the Rule and Jail is the Exception.\"** Section 45 merely prescribes conditions that must be satisfied — it does not create a blanket prohibition.\n\n### IV. General Parameters Considered by Courts\n\nWhile adjudicating bail applications under PMLA, courts also consider the broader parameters of bail jurisprudence, including:\n\n- The **nature and gravity** of the accusation;\n- The **role attributed** to the accused;\n- **Criminal antecedents** of the accused;\n- The **likelihood of tampering** with evidence or witnesses;\n- The **risk of abscondence** or fleeing from justice;\n- The **likelihood of repeating** the offence; and\n- The **overall impact on society** and the desirability of releasing the accused on bail.\n\n### V. Context of Prolonged Custody\n\nThe Supreme Court has also recognized that even under special enactments with rigorous bail conditions like PMLA, courts may consider the **period of custody already suffered** and the **likely period for completion of trial** as relevant factors when deciding on bail, drawing a parallel with the approach taken under NDPS and UAPA jurisprudence.",
+  "generated_at": "2026-09-14T12:12:26.118238"
+}

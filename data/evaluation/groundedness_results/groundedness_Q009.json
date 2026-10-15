@@ -1,0 +1,16 @@
+{
+  "query_id": "Q009",
+  "question": "What safeguards must be followed during the arrest of an accused?",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q009_20260914_115523.json",
+  "cases_considered": 5,
+  "evidence_records": 0,
+  "context_characters": 14187,
+  "context_truncated": false,
+  "groundedness": 1.0,
+  "supported_claims": 0,
+  "unsupported_claims": 0,
+  "reason": "The answer contains no substantive claims and no retrieved evidence is available, so there is no support for any claim.",
+  "evaluator_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T14:04:36.787868",
+  "method": "Claim-support evaluation against the actual retrieved judicial evidence."
+}

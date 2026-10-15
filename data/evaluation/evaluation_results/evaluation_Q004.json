@@ -1,0 +1,24 @@
+{
+  "query_id": "Q004",
+  "question": "What factors should courts consider while deciding whether to grant bail?",
+  "base_source_file": "data\\evaluation\\generation_outputs\\base_answer_q004_20260914_010143.json",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q004_20260914_114921.json",
+  "base_provider": "gemini",
+  "rag_provider": "provider_manager",
+  "evaluation_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T13:22:49.348687",
+  "base": {
+    "relevance": 5,
+    "reference_consistency": 5,
+    "completeness": 5,
+    "overall": 5.0
+  },
+  "rag": {
+    "relevance": 5,
+    "reference_consistency": 5,
+    "completeness": 5,
+    "groundedness": 1,
+    "overall": 4.0
+  },
+  "brief_reason": "Both answers list the relevant bail factors, but the RAG answer lacks supporting evidence (no retrieved citations), resulting in a low groundedness score."
+}

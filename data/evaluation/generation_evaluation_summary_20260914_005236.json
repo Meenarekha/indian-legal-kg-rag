@@ -1,0 +1,173 @@
+{
+  "created_at": "2026-09-14T00:52:36.561667",
+  "evaluation_scope": {
+    "start_query": 1,
+    "end_query": 30,
+    "total_queries": 30,
+    "successful": 1,
+    "failed_or_missing": 29
+  },
+  "base_llm_average": {
+    "relevance": 5.0,
+    "reference_consistency": 5.0,
+    "completeness": 5.0,
+    "overall": 5.0
+  },
+  "rag_average": {
+    "relevance": 4.0,
+    "reference_consistency": 2.0,
+    "completeness": 3.0,
+    "groundedness": 5.0,
+    "overall": 3.5
+  },
+  "grounding": {
+    "supported_claims": 10,
+    "unsupported_claims": 0,
+    "total_claims": 10,
+    "support_percentage": 100.0
+  },
+  "query_results": [
+    {
+      "query_id": "Q001",
+      "status": "success",
+      "evaluation_file": "C:\\Legal Query RAG\\data\\evaluation\\generation_evaluations\\evaluation_q001_20260914_004221.json",
+      "base": {
+        "relevance": 5,
+        "reference_consistency": 5,
+        "completeness": 5,
+        "overall": 5.0,
+        "reason": "The base answer directly and comprehensively addresses the question, covering both the discretionary factors courts consider and the statutory conditions imposed under Section 438 CrPC, aligning exceptionally well with the reference answer."
+      },
+      "rag": {
+        "relevance": 4,
+        "reference_consistency": 2,
+        "completeness": 3,
+        "groundedness": 5,
+        "overall": 3.5,
+        "reason": "The RAG answer is thoroughly grounded in the retrieved judicial passages, accurately summarizing pre-conditions, custody rules, and statutory exclusions under Section 438. However, because the retrieved evidence focuses narrowly on procedural bars rather than general bail considerations, it misses most core factors highlighted in the reference answer (e.g., gravity of accusation, risk of flight, tampering)."
+      },
+      "grounding": {
+        "supported_claims": 10,
+        "unsupported_claims": 0,
+        "total_claims": 10,
+        "explanation": "All 10 identified claims—including the pre-condition of apprehension of arrest, non-arrest in that offence, custody in separate offences, Section 438(2)(i) consideration, Section 438(4) exclusions, and rulings from Sushila Aggarwal and Sibbia—are fully supported by Evidence E01, E02, and E03."
+      }
+    },
+    {
+      "query_id": "Q002",
+      "status": "missing_base_answer"
+    },
+    {
+      "query_id": "Q003",
+      "status": "missing_base_answer"
+    },
+    {
+      "query_id": "Q004",
+      "status": "missing_base_answer"
+    },
+    {
+      "query_id": "Q005",
+      "status": "missing_base_answer"
+    },
+    {
+      "query_id": "Q006",
+      "status": "missing_base_answer"
+    },
+    {
+      "query_id": "Q007",
+      "status": "missing_base_answer"
+    },
+    {
+      "query_id": "Q008",
+      "status": "missing_base_answer"
+    },
+    {
+      "query_id": "Q009",
+      "status": "missing_base_answer"
+    },
+    {
+      "query_id": "Q010",
+      "status": "missing_base_answer"
+    },
+    {
+      "query_id": "Q011",
+      "status": "missing_base_answer"
+    },
+    {
+      "query_id": "Q012",
+      "status": "missing_base_answer"
+    },
+    {
+      "query_id": "Q013",
+      "status": "missing_base_answer"
+    },
+    {
+      "query_id": "Q014",
+      "status": "missing_base_answer"
+    },
+    {
+      "query_id": "Q015",
+      "status": "missing_base_answer"
+    },
+    {
+      "query_id": "Q016",
+      "status": "missing_base_answer"
+    },
+    {
+      "query_id": "Q017",
+      "status": "missing_base_answer"
+    },
+    {
+      "query_id": "Q018",
+      "status": "missing_base_answer"
+    },
+    {
+      "query_id": "Q019",
+      "status": "missing_base_answer"
+    },
+    {
+      "query_id": "Q020",
+      "status": "missing_base_answer"
+    },
+    {
+      "query_id": "Q021",
+      "status": "missing_base_answer"
+    },
+    {
+      "query_id": "Q022",
+      "status": "missing_base_answer"
+    },
+    {
+      "query_id": "Q023",
+      "status": "missing_base_answer"
+    },
+    {
+      "query_id": "Q024",
+      "status": "missing_base_answer"
+    },
+    {
+      "query_id": "Q025",
+      "status": "missing_base_answer"
+    },
+    {
+      "query_id": "Q026",
+      "status": "missing_base_answer"
+    },
+    {
+      "query_id": "Q027",
+      "status": "missing_base_answer"
+    },
+    {
+      "query_id": "Q028",
+      "status": "missing_base_answer"
+    },
+    {
+      "query_id": "Q029",
+      "status": "missing_base_answer"
+    },
+    {
+      "query_id": "Q030",
+      "status": "missing_base_answer"
+    }
+  ]
+}

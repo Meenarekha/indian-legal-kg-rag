@@ -1,0 +1,8 @@
+{
+  "query_id": "Q006",
+  "question": "What limitations can be imposed while granting anticipatory bail?",
+  "generation_type": "BASE_LLM",
+  "error_type": "RuntimeError",
+  "error": "No LLM providers are available.",
+  "failed_at": "2026-09-14T11:02:49.196486"
+}

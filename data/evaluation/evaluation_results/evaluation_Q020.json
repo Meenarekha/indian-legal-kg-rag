@@ -1,0 +1,24 @@
+{
+  "query_id": "Q020",
+  "question": "What factors are considered when assessing the credibility of a witness?",
+  "base_source_file": "data\\evaluation\\generation_outputs\\base_answer_Q020_20260914_112650.json",
+  "rag_source_file": "data\\evaluation\\generation_outputs\\rag_answer_Q020_20260914_121131.json",
+  "base_provider": "gemini",
+  "rag_provider": "provider_manager",
+  "evaluation_model": "openai/gpt-oss-120b",
+  "evaluation_timestamp": "2026-09-14T13:30:19.256127",
+  "base": {
+    "relevance": 5.0,
+    "reference_consistency": 5.0,
+    "completeness": 5.0,
+    "overall": 5.0
+  },
+  "rag": {
+    "relevance": 4.0,
+    "reference_consistency": 4.0,
+    "completeness": 3.0,
+    "groundedness": 1.0,
+    "overall": 3.0
+  },
+  "brief_reason": "The Base answer covers all reference points (consistency, reliability/naturalness, opportunity, corroboration, bias, material contradictions) and aligns closely, while the RAG answer omits opportunity and bias factors and provides no supporting evidence."
+}
