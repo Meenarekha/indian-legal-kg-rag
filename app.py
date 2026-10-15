@@ -1,6 +1,22 @@
 import os
 os.environ["STREAMLIT_SERVER_FILE_WATCHER_TYPE"] = "none"
+import os
+import subprocess
+import streamlit as st
 
+os.environ["AWS_ACCESS_KEY_ID"] = st.secrets["AWS_ACCESS_KEY_ID"]
+os.environ["AWS_SECRET_ACCESS_KEY"] = st.secrets["AWS_SECRET_ACCESS_KEY"]
+
+result = subprocess.run(
+    ["dvc", "pull", "-r", "origin"],
+    capture_output=True,
+    text=True
+)
+
+if result.returncode != 0:
+    st.error("Failed to download RAG indexes from DagsHub.")
+    st.code(result.stderr)
+    st.stop()
 import re
 import sys
 import json
