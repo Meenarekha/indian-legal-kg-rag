@@ -953,6 +953,9 @@ if search_button:
     authoritative sources and qualified legal professionals.</div>
     """)
 
+from pathlib import Path
+
+PROJECT_ROOT = Path(__file__).resolve().parent
 ARCHITECTURE_IMAGE = PROJECT_ROOT / "System Architecture.png"
 
 render_html("""
