@@ -14,7 +14,7 @@ import streamlit.components.v1 as components
 # ------------------------------------------------------------
 # PROJECT PATHS
 # ------------------------------------------------------------
-PROJECT_ROOT = Path(r"C:\Legal Query RAG")
+PROJECT_ROOT = Path(__file__).resolve().parent
 SCRIPTS_DIR = PROJECT_ROOT / "scripts"
 KG_FILE = PROJECT_ROOT / "knowledge_graph" / "data" / "nodes" / "all_nodes.json"
 
